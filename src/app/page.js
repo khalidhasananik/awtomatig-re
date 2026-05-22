@@ -1,5 +1,5 @@
 "use client";
-import GridAnimatedBg from "@/components/animation/GridAnimatedBg";
+import DarkVeil from "@/components/animation/DarkVeil";
 import BlogTimeline from "@/components/home/BlogTimeline";
 import FutureChanges from "@/components/home/FutureChanges";
 import Hero from "@/components/home/Hero";
@@ -16,21 +16,28 @@ import Sponsor from "@/components/services/Sponsor";
 export default function Home() {
   return (
     <main className="overflow-hidden">
-      <GridAnimatedBg>
+      <DarkVeil
+        speed={2.7}
+        hueShift={0}
+        noiseIntensity={0}
+        scanlineIntensity={0}
+        scanlineFrequency={0.5}
+        warpAmount={0}
+      >
         <Hero />
-      </GridAnimatedBg>
-      
+      </DarkVeil>
+
       <section className="mt-14 sm:mt-16 md:mt-20 lg:mt-32">
         <WhyUs />
       </section>
-      <section className="mt-14 sm:mt-16 md:mt-20 lg:mt-32">       
+      <section className="mt-14 sm:mt-16 md:mt-20 lg:mt-32">
           <MarqueHighlightText
             marqueeText={[
               "/From growth pressure to structured momentum",
               "/From execution overload to scalable systems",
               "/From manual effort to intelligent flow",
             ]}
-          />        
+          />
       </section>
       <section className="mt-14 sm:mt-16 md:mt-20 lg:mt-32">
         <Services />
