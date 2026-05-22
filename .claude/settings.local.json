@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf .next && echo \"Removed .next\")",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git branch *)",
+      "Bash(claude mcp *)",
+      "PowerShell(\\(Get-Command claude -ErrorAction SilentlyContinue\\).Source)",
+      "Read(//c/Users/anik/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\anik\\Downloads\\awtomatig-main\\.next"
+    ]
+  }
+}

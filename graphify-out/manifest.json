@@ -1,0 +1,777 @@
+{
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\eslint.config.mjs": {
+    "mtime": 1778832764.0,
+    "ast_hash": "cd28c192684b52caf16d8d1df068e272",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\jsconfig.json": {
+    "mtime": 1778832764.0,
+    "ast_hash": "373b4d3b81ad935084b8292c8233423e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\next.config.mjs": {
+    "mtime": 1778832764.0,
+    "ast_hash": "21958f5752add43cc47ab0ff5172cd46",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\package.json": {
+    "mtime": 1779472255.0790348,
+    "ast_hash": "c24885c65e9f508e4a0088d6fd2c14e3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\postcss.config.mjs": {
+    "mtime": 1778832764.0,
+    "ast_hash": "675899342e765a4d16acd75a53389101",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\layout.js": {
+    "mtime": 1779469322.6495893,
+    "ast_hash": "0ff7ade5a6281db167f6a940aef09db5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\not-found.js": {
+    "mtime": 1778832764.0,
+    "ast_hash": "745f5bd4114c095c9e36720232dc267b",
+    "semantic_hash": "745f5bd4114c095c9e36720232dc267b"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\page.js": {
+    "mtime": 1779472909.1554997,
+    "ast_hash": "2400e37a79f466602faec9f0c4180b9c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\robots.js": {
+    "mtime": 1778832764.0,
+    "ast_hash": "253fac1118bf70b96519d89085ad5b6a",
+    "semantic_hash": "253fac1118bf70b96519d89085ad5b6a"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\sitemap.js": {
+    "mtime": 1778832764.0,
+    "ast_hash": "8e83dce49301a4facdb8ad13c17bd139",
+    "semantic_hash": "8e83dce49301a4facdb8ad13c17bd139"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\about-us\\page.jsx": {
+    "mtime": 1779445474.2132967,
+    "ast_hash": "fc57c4258ae882d1fe5cae38ec768335",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\api\\contact\\route.js": {
+    "mtime": 1778832764.0,
+    "ast_hash": "ed86c272cd07953ef5eb6154e20b1fc3",
+    "semantic_hash": "ed86c272cd07953ef5eb6154e20b1fc3"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\case-studies\\page.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "6e3b457b8d9a82455841974b6f2c58c6",
+    "semantic_hash": "6e3b457b8d9a82455841974b6f2c58c6"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\case-studies\\[slug]\\page.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "15907b942cfd22732b977f679c911c05",
+    "semantic_hash": "15907b942cfd22732b977f679c911c05"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\contact\\page.js": {
+    "mtime": 1778832764.0,
+    "ast_hash": "a4b4cc996338cb5588bc8d3c4f743de6",
+    "semantic_hash": "a4b4cc996338cb5588bc8d3c4f743de6"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\process\\page.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "5d806bfe4c7a326114eda54ac1a8319d",
+    "semantic_hash": "5d806bfe4c7a326114eda54ac1a8319d"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\services\\page.jsx": {
+    "mtime": 1779456930.0882888,
+    "ast_hash": "8bf7a9809e5586762dc11231ff9c1a81",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\Accordion.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "96bd306b6b421c31b01ef52f8e428791",
+    "semantic_hash": "96bd306b6b421c31b01ef52f8e428791"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\AnimatedButton.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "344d6e2035169a4aff31ee902ae45355",
+    "semantic_hash": "344d6e2035169a4aff31ee902ae45355"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\ArticleBar.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "6dc1aef3142b57ce23ed80cf44c7eb58",
+    "semantic_hash": "6dc1aef3142b57ce23ed80cf44c7eb58"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\BackgroundAnimation.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "f0c0de41c4570e035f53ae3688acef4f",
+    "semantic_hash": "f0c0de41c4570e035f53ae3688acef4f"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\BorderAnimateButton.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "277ca32d400eb5fbe21ba9452bbd90dd",
+    "semantic_hash": "277ca32d400eb5fbe21ba9452bbd90dd"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\CommonHeading.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "a12da1aef1bc560b3636d067fd0201fc",
+    "semantic_hash": "a12da1aef1bc560b3636d067fd0201fc"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\CostEfficiencyCard.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "32206768bd0681670af26dafdabb5392",
+    "semantic_hash": "32206768bd0681670af26dafdabb5392"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\GlowBall.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "622cc9da5ea2e2da079fb4c0b5cb91aa",
+    "semantic_hash": "622cc9da5ea2e2da079fb4c0b5cb91aa"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\GTMProvider.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "d5321ca139ec2440a61ae0f37814f2e4",
+    "semantic_hash": "d5321ca139ec2440a61ae0f37814f2e4"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\Header.jsx": {
+    "mtime": 1779469167.0007875,
+    "ast_hash": "ef82c2f5ebafe0dd0a26e0cd8a664ecc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\InputBox.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "c3dae44df6e9a2fb8ad41771201a5bbc",
+    "semantic_hash": "c3dae44df6e9a2fb8ad41771201a5bbc"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\MarqueHighlightText.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "76e6e324cf7e958617a543940864dd20",
+    "semantic_hash": "76e6e324cf7e958617a543940864dd20"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\ParticleBackground.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "bc6bbb775ccb72d52753deefbd9250c9",
+    "semantic_hash": "bc6bbb775ccb72d52753deefbd9250c9"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\SvgIcons.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "e78280d84598361be9b63eb50869174f",
+    "semantic_hash": "e78280d84598361be9b63eb50869174f"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\TextBox.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "f9777f960a1e0093f2234c520f55ebdb",
+    "semantic_hash": "f9777f960a1e0093f2234c520f55ebdb"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\animation\\FadeEffect.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "bd43a447b8231fa6d50ae5a2956a11e1",
+    "semantic_hash": "bd43a447b8231fa6d50ae5a2956a11e1"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\animation\\GridAnimatedBg.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "fb9c9efcb3e5e26612a360d2e1aaa3fd",
+    "semantic_hash": "fb9c9efcb3e5e26612a360d2e1aaa3fd"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\animation\\GsapScrollEffect.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "e9e106254ce6c6489e1126796069f85e",
+    "semantic_hash": "e9e106254ce6c6489e1126796069f85e"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\contact\\GetInTouch.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "751d50edf1ec0df60eae69e59ce8a747",
+    "semantic_hash": "751d50edf1ec0df60eae69e59ce8a747"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\footer\\Footer.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "8906a9c9ecd9fdfe31e5484909cf1410",
+    "semantic_hash": "8906a9c9ecd9fdfe31e5484909cf1410"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\BlogTimeline.jsx": {
+    "mtime": 1779470097.0494528,
+    "ast_hash": "1fc264521d8e615a10194bf30faea638",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\CookiePopup.jsx": {
+    "mtime": 1779459961.1519308,
+    "ast_hash": "b22504f7e6edf745b5cf73b3c7cb5588",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\EarPhoneShowcase.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "6e0d697d7786bbe8f9428dc968f4570c",
+    "semantic_hash": "6e0d697d7786bbe8f9428dc968f4570c"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\FutureChanges.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "1533eb0087706aafa88e6c2817c779e1",
+    "semantic_hash": "1533eb0087706aafa88e6c2817c779e1"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\Hero.jsx": {
+    "mtime": 1779471957.0236943,
+    "ast_hash": "59e4ff366acc9ccd3e07b627d0f07e44",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\Impact.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "dd5363814eee6c9a9489fc8c7e27f372",
+    "semantic_hash": "dd5363814eee6c9a9489fc8c7e27f372"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\KeepFlyingMarquee.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "c11e66a8d6ce33c5843eb92bac20514d",
+    "semantic_hash": "c11e66a8d6ce33c5843eb92bac20514d"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\OurCapabilities.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "8ee29e59a8520b27a84d4be065752c3c",
+    "semantic_hash": "8ee29e59a8520b27a84d4be065752c3c"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\OurProccess.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "5cdb775ec2475fe1dda095ff42899198",
+    "semantic_hash": "5cdb775ec2475fe1dda095ff42899198"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\Services.jsx": {
+    "mtime": 1779470311.5986507,
+    "ast_hash": "9c1c836dcaa45c5c632111ec5d68dc46",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\Testimonials.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "e470bf344af7b090a8390c042308940e",
+    "semantic_hash": "e470bf344af7b090a8390c042308940e"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\ThreeBoxes.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "40475de9530f0d9fa222d4135ab6cfa9",
+    "semantic_hash": "40475de9530f0d9fa222d4135ab6cfa9"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\WhyUs.jsx": {
+    "mtime": 1779444695.636449,
+    "ast_hash": "ff880b798e8addba84e29e5cf2a513b0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\services\\Benifits.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "367f362416fd143cb12b036f2220980e",
+    "semantic_hash": "367f362416fd143cb12b036f2220980e"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\services\\GetInTouch.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "695cfd97b8992f4d09aada4dc25d4e1e",
+    "semantic_hash": "695cfd97b8992f4d09aada4dc25d4e1e"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\services\\OurServices.jsx": {
+    "mtime": 1779459562.221824,
+    "ast_hash": "fe59460cc2fb73e5dd46527b81db34d7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\services\\Sponsor.jsx": {
+    "mtime": 1778832764.0,
+    "ast_hash": "9aa6adb38a20e2a2ae650bd537d0a2b4",
+    "semantic_hash": "9aa6adb38a20e2a2ae650bd537d0a2b4"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\contants\\benifits.js": {
+    "mtime": 1778832764.0,
+    "ast_hash": "a33937e6ba205028cbfb32eab30903b7",
+    "semantic_hash": "a33937e6ba205028cbfb32eab30903b7"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\contants\\capabilities.js": {
+    "mtime": 1779444512.8184996,
+    "ast_hash": "7836318ca9555f6f791d461c1d40416f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\contants\\case-studies.js": {
+    "mtime": 1778832764.0,
+    "ast_hash": "cae7feb09dc3fd6d5a3e130bea02480f",
+    "semantic_hash": "cae7feb09dc3fd6d5a3e130bea02480f"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\contants\\ourProcess.js": {
+    "mtime": 1778832764.0,
+    "ast_hash": "378b7ba3377426a321145d6e4e66e437",
+    "semantic_hash": "378b7ba3377426a321145d6e4e66e437"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\contants\\services.js": {
+    "mtime": 1779459531.626407,
+    "ast_hash": "744cf6a15eb7c52aa8e2da363176e78a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\lib\\gtm.js": {
+    "mtime": 1778832764.0,
+    "ast_hash": "27668d62704595477d39d0b8efa0a40d",
+    "semantic_hash": "27668d62704595477d39d0b8efa0a40d"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\types\\gtm.d.ts": {
+    "mtime": 1778832764.0,
+    "ast_hash": "8d1629e048049a6aa7f593de59a50295",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\CLAUDE.md": {
+    "mtime": 1779433300.1954992,
+    "ast_hash": "8a6643a420fdad6bfb583523bc6cef16",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\README.md": {
+    "mtime": 1779433810.3460772,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\favicon.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "2c56f0261a8d08ac17ee39ac3027187a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\file.svg": {
+    "mtime": 1778832764.0,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\globe.svg": {
+    "mtime": 1778832764.0,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\next.svg": {
+    "mtime": 1778832764.0,
+    "ast_hash": "8e061864f388b47f33a1c3780831193e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\vercel.svg": {
+    "mtime": 1778832764.0,
+    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\window.svg": {
+    "mtime": 1778832764.0,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\banners\\blue-abstract.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "9ee88b82356575c18dc9371fe74059c8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\banners\\hero-banner.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "ace9bcc82f634a30b941de16bb7df0b5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\banners\\home-banner.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "53844d4640afb173d1725a4260f3249a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\card\\blue-card-bg.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "11e7e41d249cb5d44bcbcfa47d701fc5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\card\\white-card-bg.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "6b30254ae4602557f390927539ba3e10",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\churassco\\churassco-sitemap.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "f0f3974fb9b19587501b3208747c889e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\churassco\\churassco-website.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "d57f2076376de033e05ef9f993b68625",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\churassco\\churassco-wireframe.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "1c47f6ae2fa34dcf0aad47fa5705ebdc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\churassco\\component-1.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "caccd4cb74228595e7fd9056b13cdf28",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\churassco\\component-2.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "b9e78070832ce86a020a05c50d5e0aef",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\churassco\\component-3.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "806949a54cb93e953a50fd830328200e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\churassco\\component-4.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "a718126ee87246fa47784794994e4f7d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\fabusiness\\component-1.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "55dd0f5fcfb5a213532ef9574d67dd23",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\fabusiness\\component-2.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "b8f0197e8e93ad209782f00651525a5a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\fabusiness\\component-3.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "f54c070dd3516862bf8cdc0dc6256775",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\fabusiness\\component-4.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "2986a053a30dee4079c8346d9cb9e29a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\fabusiness\\fabusiness-sitemap.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "7b7874fd66bc8da5747183343aed214e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\fabusiness\\fabusiness-website.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "d5b18131d6c3a3b337c8ea3c2f17f35f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\fabusiness\\fabusiness-wireframe.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "10659d103699e251d2882f3098496a75",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\royal-safari\\component-1.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "bcc9507bcd44f12d448a75979560f103",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\royal-safari\\component-2.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "a5ba95b60a4522bcaf1a850bd4a73f45",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\royal-safari\\component-3.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "9146fa18d2655b49a49a3b63dd7ca966",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\royal-safari\\component-4.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "97216997cd432d8eb36456d4b3c7481c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\royal-safari\\royal-safari-sitemap.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "e22e96c1d6fa5c3855301c3ae9362dae",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\royal-safari\\royal-safari-website.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "0b54907609dd5478f6008e3fc0158b07",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\case-studies\\royal-safari\\royal-safari-wireframe.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "6a8516f4e38e5b25d2fabad01ca66727",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\services\\automation.gif": {
+    "mtime": 1778832764.0,
+    "ast_hash": "898d14e279313adbde5ba7517f81e2bf",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\services\\growth.gif": {
+    "mtime": 1778832764.0,
+    "ast_hash": "de8adb37f2734874e861538fac1c8c13",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\services\\office-management.gif": {
+    "mtime": 1778832764.0,
+    "ast_hash": "2a7bddd818f89e0501fdcb1d91d471dc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\services\\system-support.gif": {
+    "mtime": 1778832764.0,
+    "ast_hash": "803746982ac4cc28721382a254588ed9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\services\\web.gif": {
+    "mtime": 1778832764.0,
+    "ast_hash": "b531999f0e7a8ed441f6b8018caee800",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\sponsor\\hubspot-logo.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "779f9b8a91d14f94e6e1aee4efa50099",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\sponsor\\monday-logo.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "410316f2620493330f8f2a169c4d0e40",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\sponsor\\partner-1.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "93db97297946a669ebce36738f28035b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\sponsor\\partner-2.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "d10c57c35057327951e141d9eb269a05",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\sponsor\\partner-3.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "28e3ba7d4109811b8daa1af017db34e2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\sponsor\\partner-4.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "267542509e85b3b8b24a5d64be5ff665",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\sponsor\\partner-5.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "b0d808a0dcc049ae5a974e41e833ce90",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\sponsor\\partner-6.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "1cb28e8186bb93c02f58a03ed8f53d19",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\sponsor\\partner-7.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "fa30ba4ff3dbdf81d53794b8b46436e5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\sponsor\\salesforce-logo.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "531154e2ae70feefe9ac9c102ea66fbd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\airtable.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "0095e559095e06fef5027ebd3c470701",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\HubSpot.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "36a12e19b2f272fdec77ff68f6d9ebda",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\Mailchimp.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "fe93c114353c59bf5bbc2b7d184139a9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\make-seeklogo.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "94f3769846f9f78bd895cb550de572c4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\MondayCom.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "19a2f1ddc8deb7e09ea98bb9c84a1958",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\n8n.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "ded7a2ee1ec022b14b00c1aaf1182119",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\next-js.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "0ef34ebb58073b8f5a44eba93cd778f8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\node-js.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "6b525417f76b1082ab5dbeb3b1142271",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\notion.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "69cadc969ce320ca35aab13cfb742962",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\Salesforce.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "ea8e2b5075c3b9addc528106abdd8046",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\sendgrid.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "669f42f7d72fafd2354851b60910ae4e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\tailwind-css.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "556d4cff234565cb7238003c0f8da5f4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\trello.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "f5f2357ce0668a8288ced2a78049211a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\twilio.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "934436d30b6af8cc468cfa493eb757fa",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\images\\tech\\zapier.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "4efeba006dd437a669dd1d83183eee5e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\404.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "f0f01ff6b3cba2cc92a9fbbff669e7dd",
+    "semantic_hash": "f0f01ff6b3cba2cc92a9fbbff669e7dd"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\about\\man-working.gif": {
+    "mtime": 1778832764.0,
+    "ast_hash": "9a12b2fd7da4a32a0500a2f5a374ddb9",
+    "semantic_hash": "9a12b2fd7da4a32a0500a2f5a374ddb9"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\case-studies\\churassco-laptop.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "6021f6398bd722876d33464f3ca0b3e0",
+    "semantic_hash": "6021f6398bd722876d33464f3ca0b3e0"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\case-studies\\fa-business-laptop.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "a289ff39d6e22f855566b7205dd96bac",
+    "semantic_hash": "a289ff39d6e22f855566b7205dd96bac"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\case-studies\\royal-safari-laptop.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "034b8bcdb046767d0c28215be641fbe6",
+    "semantic_hash": "034b8bcdb046767d0c28215be641fbe6"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\home\\animated-banner.jpg": {
+    "mtime": 1778832764.0,
+    "ast_hash": "aa2fa64482d308d8aaf067c579ceba2d",
+    "semantic_hash": "aa2fa64482d308d8aaf067c579ceba2d"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\home\\card-bg.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "846e6ede8727381f292edefee248a26f",
+    "semantic_hash": "846e6ede8727381f292edefee248a26f"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\home\\earphone.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "27bf9f2fda648b667dac0181412efaad",
+    "semantic_hash": "27bf9f2fda648b667dac0181412efaad"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\home\\glove-card.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "21a357a9ac47984d9f1351f7bfdcdba8",
+    "semantic_hash": "21a357a9ac47984d9f1351f7bfdcdba8"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\home\\glove.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "630226a6dd3b0d0c0057726c4e3ef234",
+    "semantic_hash": "630226a6dd3b0d0c0057726c4e3ef234"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\home\\laptop.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "b91b8ddafe10ee25ce0ba929a82fb856",
+    "semantic_hash": "b91b8ddafe10ee25ce0ba929a82fb856"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\home\\rainbow-bg.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "cd13bf2abde62b7caec9ce86353c0198",
+    "semantic_hash": "cd13bf2abde62b7caec9ce86353c0198"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\home\\sora-ai.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "f110407581d0906c7378d87d39b7e188",
+    "semantic_hash": "f110407581d0906c7378d87d39b7e188"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\logo\\awtomatig-full-logo.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "17a382983f6390e887476aea1fa7d737",
+    "semantic_hash": "17a382983f6390e887476aea1fa7d737"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\logo\\awtomatig-logo.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "e29b2f6db2919a2bc20e96369b43bd6f",
+    "semantic_hash": "e29b2f6db2919a2bc20e96369b43bd6f"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\logo\\cookie.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "8c5b0611fdd722356b559106ebeeb189",
+    "semantic_hash": "8c5b0611fdd722356b559106ebeeb189"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\logo\\since-text.png": {
+    "mtime": 1778832764.0,
+    "ast_hash": "b0c2fe5a190d6f9351754a2cb9f3db0a",
+    "semantic_hash": "b0c2fe5a190d6f9351754a2cb9f3db0a"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\assets\\services\\awtomatig-banner.webp": {
+    "mtime": 1778832764.0,
+    "ast_hash": "a9f0461359ffd496a600eb1c9c86387a",
+    "semantic_hash": "a9f0461359ffd496a600eb1c9c86387a"
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\about\\AboutHero.jsx": {
+    "mtime": 1779445459.0552444,
+    "ast_hash": "61c22a2d4c939720960377b6f303ce4a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\about\\OurStory.jsx": {
+    "mtime": 1779445054.1726158,
+    "ast_hash": "2a4ade4d4e25234e71a9cd1d474ae27a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\services\\[slug]\\page.jsx": {
+    "mtime": 1779456983.8253858,
+    "ast_hash": "155f2b5e87c0159331e9eb4a03463c3f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\services\\ExpertiseTabs.jsx": {
+    "mtime": 1779459757.0254078,
+    "ast_hash": "8c236ed38daffcce80b29e1105b00901",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\services\\ServiceCTA.jsx": {
+    "mtime": 1779456888.4472437,
+    "ast_hash": "7e8318082e4646431e6198fd36de876a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\services\\StatsBar.jsx": {
+    "mtime": 1779456822.4015386,
+    "ast_hash": "271c9387cdf034547edf2e62b59c13ee",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\services\\WhoBenefits.jsx": {
+    "mtime": 1779456860.882177,
+    "ast_hash": "5ec38c9f46d29521b8c8b8a9732659a5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\services\\WhyChooseUs.jsx": {
+    "mtime": 1779456877.9795423,
+    "ast_hash": "4b48ae07632aa4afc05050a34a0d62e2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\code.html": {
+    "mtime": 1779434090.0,
+    "ast_hash": "df7d3d782c5461c2065a47c4ac6ed0b3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\animation\\DarkVeil.jsx": {
+    "mtime": 1779469603.0739462,
+    "ast_hash": "c63e4300ef2a767ff171764b892bb0a8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\animation\\LineWaves.jsx": {
+    "mtime": 1779471530.0556655,
+    "ast_hash": "374fda442d4b88932a4640d74039f691",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\animation\\PixelBlast.jsx": {
+    "mtime": 1779472779.8280137,
+    "ast_hash": "6d69fdff8118998a723cfb6b6c0bbe76",
+    "semantic_hash": ""
+  }
+}

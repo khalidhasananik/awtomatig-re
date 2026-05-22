@@ -1,4 +1,5 @@
 import { caseStudies } from "@/contants/case-studies";
+import { servicesData } from "@/contants/services";
 
 const BASE_URL = "https://awtomatig.com";
 
@@ -8,6 +9,13 @@ export default function sitemap() {
     lastModified: new Date(),
     changeFrequency: "yearly",
     priority: 0.6,
+  }));
+
+  const serviceEntries = servicesData.map((service) => ({
+    url: `${BASE_URL}/services/${service.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly",
+    priority: 0.7,
   }));
 
   return [
@@ -47,6 +55,7 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    ...serviceEntries,
     ...caseStudyEntries,
   ];
 }

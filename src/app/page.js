@@ -16,7 +16,22 @@ import Sponsor from "@/components/services/Sponsor";
 export default function Home() {
   return (
     <main className="overflow-hidden">
-      <div className="relative h-screen">
+      <div
+        className="relative h-screen"
+        onPointerDown={(e) => {
+          const canvas = e.currentTarget.querySelector('canvas');
+          if (canvas && e.target !== canvas) {
+            canvas.dispatchEvent(new PointerEvent('pointerdown', {
+              clientX: e.clientX,
+              clientY: e.clientY,
+              bubbles: false,
+              cancelable: true,
+              pointerId: e.pointerId,
+              pointerType: e.pointerType,
+            }));
+          }
+        }}
+      >
         <PixelBlast
           variant="square"
           pixelSize={4}
@@ -32,7 +47,7 @@ export default function Home() {
           liquidStrength={0.12}
           liquidRadius={1.2}
           liquidWobbleSpeed={5}
-          speed={0.5}
+          speed={2}
           edgeFade={0.25}
           transparent
         />
