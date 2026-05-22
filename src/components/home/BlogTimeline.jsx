@@ -102,7 +102,7 @@ export default function BlogTimeline() {
           scrollBottom={{ opacity: 0, x: 150 }}
           margin="40px 0px -40px 0px"
         >
-          <div className="max-w-[1114px] ml-auto mt-10 md:mt-20 relative z-10">
+          <div className="mt-10 md:mt-20 relative z-10">
             {blogData.map(blog=><ArticleBar key={blog.id} blog={blog}/>)}
             
            

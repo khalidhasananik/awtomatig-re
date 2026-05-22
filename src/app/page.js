@@ -1,5 +1,5 @@
 "use client";
-import DarkVeil from "@/components/animation/DarkVeil";
+import PixelBlast from "@/components/animation/PixelBlast";
 import BlogTimeline from "@/components/home/BlogTimeline";
 import FutureChanges from "@/components/home/FutureChanges";
 import Hero from "@/components/home/Hero";
@@ -16,16 +16,30 @@ import Sponsor from "@/components/services/Sponsor";
 export default function Home() {
   return (
     <main className="overflow-hidden">
-      <DarkVeil
-        speed={2.7}
-        hueShift={0}
-        noiseIntensity={0}
-        scanlineIntensity={0}
-        scanlineFrequency={0.5}
-        warpAmount={0}
-      >
-        <Hero />
-      </DarkVeil>
+      <div className="relative h-screen">
+        <PixelBlast
+          variant="square"
+          pixelSize={4}
+          color="#02d5e8"
+          patternScale={2}
+          patternDensity={0.5}
+          pixelSizeJitter={0}
+          enableRipples
+          rippleSpeed={0.4}
+          rippleThickness={0.12}
+          rippleIntensityScale={1.5}
+          liquid={false}
+          liquidStrength={0.12}
+          liquidRadius={1.2}
+          liquidWobbleSpeed={5}
+          speed={0.5}
+          edgeFade={0.25}
+          transparent
+        />
+        <div className="absolute inset-0 flex flex-col">
+          <Hero />
+        </div>
+      </div>
 
       <section className="mt-14 sm:mt-16 md:mt-20 lg:mt-32">
         <WhyUs />

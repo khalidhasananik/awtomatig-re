@@ -6,8 +6,8 @@ import { pushEvent } from "@/lib/gtm";
 export default function Hero() {
   const hello = "hello";
   return (
-    <section className="container lg:min-h-screen relative  ">
-      <div className="grid  justify-center pt-38 sm:pt-[12%] lg:pt-[12%] h-[75vh] sm:h-[70vh] md:h-[75vh] xl:h-[90vh]">
+    <section className="container min-h-screen relative  ">
+      <div className="grid  justify-center pt-38 sm:pt-[12%] lg:pt-[12%] h-screen sm:h-[70vh] md:h-[75vh] xl:h-[90vh]">
         <div className="wrapper text-center ">
           <FadeInSection
             initial={{ opacity: 0, x: -100 }}
