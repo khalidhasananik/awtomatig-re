@@ -1,14 +1,11 @@
 "use client"
-import Accordion from "@/components/Accordion";
 import FadeInSection from "@/components/animation/FadeEffect";
 import BackgroundAnimation from "@/components/BackgroundAnimation";
-import CommonHeading from "@/components/CommonHeading";
 import MarqueHighlightText from "@/components/MarqueHighlightText";
 import Benifits from "@/components/services/Benifits";
 import GetInTouch from "@/components/services/GetInTouch";
 import OurServices from "@/components/services/OurServices";
 import Sponsor from "@/components/services/Sponsor";
-import { FAQ } from "@/contants/capabilities";
 import { useEffect, useRef } from "react";
 export default function Services() {
   const servicesRef=useRef(null);
@@ -64,39 +61,6 @@ export default function Services() {
       </section>      
       <section className="mt-14 sm:mt-16 md:mt-20 lg:mt-32">
         <Sponsor />
-      </section>
-      <section className="container relative mt-14 sm:mt-16 md:mt-20 lg:mt-32 ">
-        <span
-          style={{
-            background:
-              "linear-gradient(215.67deg, rgba(2, 213, 232, 0.55) 18.02%, rgba(3, 50, 103, 0.55) 94.4%)",
-          }}
-          className="hidden lg:inline-block absolute size-[800px]  -left-40 -bottom-10 rounded-full blur-[320px] -z-1"
-        ></span>
-        <FadeInSection
-          initial={{ opacity: 0, y: -150 }}
-          scrollTop={{ opacity: 1, y: 0 }}
-          scrollBottom={{ opacity: 0, y: -150 }}
-          margin="40px 0px -40px 0px"
-          className="wrapper"
-        >
-           <CommonHeading title="FAQ" color="text-teal">
-                    Common questions from our clients
-                  </CommonHeading>
-         
-
-          <div className="mt-14">
-            {FAQ.map((capability) => (
-              <Accordion
-                key={capability.id}
-                title={capability.title}
-                serial={"0" + capability.id}
-              >
-                <p className="font-montserrat">{capability.description}</p>
-              </Accordion>
-            ))}
-          </div>
-        </FadeInSection>
       </section>
       <section className="my-14 sm:my-16 md:my-20 lg:my-32">
         <GetInTouch />

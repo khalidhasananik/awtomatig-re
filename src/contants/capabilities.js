@@ -1,45 +1,45 @@
 export const capabilities = [
   {
     id: 1,
-    title: "/01 Back-Office Operations",
+    title: "/01 Web & Platform Development",
+    heading: "Web & platform development",
+    description:
+      "We develop custom web platforms and internal systems tailored to business logic, integrations, and operational needs. Our focus is on maintainability, scalability, and reliability — so platforms evolve smoothly as requirements change.",
+  },
+  {
+    id: 2,
+    title: "/02 Back-Office Operations",
     heading: "Back-office operations",
     description:
       " We manage and structure the day-to-day operational work that keeps businesses running reliably. This includes administrative execution, task coordination, documentation, and ongoing operational support — ensuring nothing critical depends on memory, urgency, or constant follow-ups.",
   },
   {
-    id: 2,
-    title: "/02 High-Performance Websites",
+    id: 3,
+    title: "/03 High-Performance Websites",
     heading: "CRM & workflow management",
     description:
       "We design, configure, and maintain structured CRM systems and internal workflows that reflect how teams actually work. Pipelines, ownership rules, automations, and reporting are aligned so work flows clearly from one stage to the next without confusion or bottlenecks.",
   },
   {
-    id: 3,
-    title: "/03 Automation & AI Workflows",
+    id: 4,
+    title: "/04 Automation & AI Workflows",
     heading: "Automation & AI workflows",
     description:
       "We identify repetitive, manual processes and redesign them using automation and AI-assisted workflows. By connecting tools and reducing human handoffs, we help teams save time, lower error rates, and scale operations without adding unnecessary headcount.",
   },
   {
-    id: 4,
-    title: "/04 UI/UX & Experience Design",
+    id: 5,
+    title: "/05 UI/UX & Experience Design",
     heading: "UI/UX & experience design",
     description:
       "We design interfaces and user flows that support real-world behavior — not ideal assumptions. This includes customer-facing experiences, internal dashboards, and operational tools where clarity, speed, and usability directly affect performance and adoption.",
   },
   {
-    id: 5,
-    title: "/05 High-Performance Websites",
+    id: 6,
+    title: "/06 High-Performance Websites",
     heading: "High-performance websites",
     description:
       "We build fast, structured websites focused on clarity, usability, and conversion. Performance, accessibility, and clean information architecture are treated as core requirements, ensuring sites remain effective as traffic and content scale.",
-  },
-  {
-    id: 6,
-    title: "/06 Web & Platform Development",
-    heading: "Web & platform development",
-    description:
-      "We develop custom web platforms and internal systems tailored to business logic, integrations, and operational needs. Our focus is on maintainability, scalability, and reliability — so platforms evolve smoothly as requirements change.",
   },
   {
     id: 7,

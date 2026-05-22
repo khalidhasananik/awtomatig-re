@@ -14,7 +14,11 @@ const links = [
     pathname: "Home",
     path: "/",
   },
-
+  {
+    id: 5,
+    pathname: "About us",
+    path: "/about-us",
+  },
   {
     id: 3,
     pathname: "Services",
@@ -24,11 +28,6 @@ const links = [
     id: 4,
     pathname: "Process",
     path: "/process",
-  },
-  {
-    id: 5,
-    pathname: "About us",
-    path: "/about-us",
   },
   {
     id: 6,

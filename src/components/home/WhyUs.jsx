@@ -7,6 +7,15 @@ gsap.registerPlugin(ScrollTrigger);
 const homeWhyUsData = [
   {
     id: 1,
+    title: "Web & Platform Development",
+    subtitle: "When your technology needs to grow up",
+    desc: "Early tools are built to launch fast — not to scale cleanly.Over time, performance slows, changes get risky, and small updates take too long. We rebuild the foundation underneath the product — so your platform supports growth instead of resisting it.",
+    features: [],
+    bestFor: "Companies that need more than templates",
+    image: "/images/services/web.gif",
+  },
+  {
+    id: 2,
     title: "Back-Office Management",
     subtitle: "When execution becomes invisible",
     desc: "At some point, founders stop building and start chasing.Chasing follow-ups. Chasing updates. Chasing tasks that should already be done.This is where structure replaces noise. This is where structure replaces noise.Reclaim your time and focus on what matters.",
@@ -15,22 +24,13 @@ const homeWhyUsData = [
     image: "/images/services/office-management.gif",
   },
   {
-    id: 2,
+    id: 3,
     title: "Automation & AI Workflows",
     subtitle: "When manual work becomes the bottleneck",
     desc: "Repetition is the silent tax on growing teams.The same steps. The same data. The same decisions — made again and again. Instead of adding more people, we redesign the flow. Work moves automatically. Information reaches the right place. Humans focus on what actually needs thinking.",
     features: [],
     bestFor: "Teams scaling fast or drowning in repetitive work",
     image: "/images/services/automation.gif",
-  },
-  {
-    id: 3,
-    title: "Web & Platform Development",
-    subtitle: "When your technology needs to grow up",
-    desc: "Early tools are built to launch fast — not to scale cleanly.Over time, performance slows, changes get risky, and small updates take too long. We rebuild the foundation underneath the product — so your platform supports growth instead of resisting it.",
-    features: [],
-    bestFor: "Companies that need more than templates",
-    image: "/images/services/web.gif",
   },
   {
     id: 4,
