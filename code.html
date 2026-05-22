@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Our Services | AWTOMATIG</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=JetBrains+Mono:wght@500&amp;family=Geist:wght@400&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#690005",
+                        "surface-container-highest": "#343439",
+                        "inverse-primary": "#00629d",
+                        "surface": "#121317",
+                        "secondary-container": "#6e208c",
+                        "on-primary-container": "#00375a",
+                        "secondary-fixed-dim": "#edb1ff",
+                        "error": "#ffb4ab",
+                        "surface-dim": "#121317",
+                        "inverse-on-surface": "#2f3035",
+                        "surface-variant": "#343439",
+                        "surface-container-low": "#1a1b20",
+                        "secondary": "#edb1ff",
+                        "on-secondary-container": "#e498ff",
+                        "surface-container-lowest": "#0d0e12",
+                        "secondary-fixed": "#f9d8ff",
+                        "tertiary": "#00e1ab",
+                        "on-primary-fixed-variant": "#004a77",
+                        "on-tertiary-container": "#003c2c",
+                        "surface-container-high": "#292a2e",
+                        "on-tertiary": "#003828",
+                        "primary-fixed": "#cfe5ff",
+                        "outline-variant": "#3f4852",
+                        "primary-container": "#00a3ff",
+                        "surface-container": "#1f1f24",
+                        "on-secondary-fixed-variant": "#6e208c",
+                        "on-primary-fixed": "#001d33",
+                        "primary": "#98cbff",
+                        "error-container": "#93000a",
+                        "on-background": "#e3e2e8",
+                        "on-secondary-fixed": "#320046",
+                        "on-primary": "#003354",
+                        "outline": "#88919d",
+                        "surface-bright": "#38393e",
+                        "primary-fixed-dim": "#98cbff",
+                        "on-tertiary-fixed": "#002116",
+                        "inverse-surface": "#e3e2e8",
+                        "tertiary-fixed": "#36ffc4",
+                        "on-surface": "#e3e2e8",
+                        "on-surface-variant": "#bec7d4",
+                        "tertiary-fixed-dim": "#00e1ab",
+                        "surface-tint": "#98cbff",
+                        "on-error-container": "#ffdad6"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "md": "16px",
+                        "margin-mobile": "16px",
+                        "xxl": "80px",
+                        "xl": "40px",
+                        "unit": "4px",
+                        "gutter": "24px",
+                        "lg": "24px",
+                        "xs": "4px",
+                        "margin-desktop": "64px",
+                        "sm": "8px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Space Grotesk"],
+                        "headline-lg": ["Space Grotesk"],
+                        "headline-md": ["Space Grotesk"],
+                        "headline-sm": ["Space Grotesk"],
+                        "body-lg": ["Geist"],
+                        "body-md": ["Geist"],
+                        "label-md": ["JetBrains Mono"],
+                        "label-sm": ["JetBrains Mono"],
+                        "display-lg": ["Space Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["36px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "headline-lg": ["48px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "headline-sm": ["24px", {"lineHeight": "1.4", "fontWeight": "500"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "label-sm": ["12px", {"lineHeight": "1.2", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                        "display-lg": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.04em", "fontWeight": "700"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #00a3ff 0%, #a05bff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .active-tab-indicator {
+            height: 2px;
+            background-color: #00a3ff;
+            width: 100%;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="bg-background/80 backdrop-blur-md border-b border-outline-variant top-0 sticky z-50">
+<div class="flex justify-between items-center max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop py-4">
+<a class="flex items-center" href="/">
+<img alt="AWTOMATIG Logo" class="h-10 w-auto" src="data:image/png;base64,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"/>
+</a>
+<div class="hidden md:flex items-center gap-lg">
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container font-bold border-b-2 border-primary-container pb-1" href="#">Services</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-background hover:text-primary-container transition-colors duration-300" href="#">Industries</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-background hover:text-primary-container transition-colors duration-300" href="#">Cases</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-background hover:text-primary-container transition-colors duration-300" href="#">Company</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-background hover:text-primary-container transition-colors duration-300" href="#">Insights</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-background hover:text-primary-container transition-colors duration-300" href="#">Contacts</a>
+</div>
+<button class="bg-primary-container text-on-primary-container px-6 py-3 font-label-sm uppercase tracking-widest rounded-full hover:opacity-90 transition-all duration-200">
+                Get in Touch
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative pt-20 pb-xxl overflow-hidden">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-primary-container/10 blur-[120px] rounded-full -z-10 opacity-30"></div>
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="max-w-4xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container mb-md block">Website Design Services</span>
+<h1 class="font-display-lg text-headline-lg-mobile md:text-display-lg mb-lg leading-tight">
+                    Creating exciting websites <br class="hidden md:block"/> that <span class="text-gradient">generate profit</span>
+</h1>
+<div class="flex flex-wrap gap-md mb-16">
+<button class="bg-primary-container text-on-primary-container px-8 py-4 font-label-sm uppercase tracking-widest rounded-full flex items-center gap-2 group transition-all">
+                        Let's Talk
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<button class="border border-outline-variant text-on-background px-8 py-4 font-label-sm uppercase tracking-widest rounded-full hover:bg-surface-variant/20 transition-all">
+                        View Our Cases
+                    </button>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-6">
+<div class="bg-surface-container rounded-xl overflow-hidden border border-outline-variant p-2 group">
+<img alt="Luxury website design showcase" class="w-full h-auto rounded-lg grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDL-hBb9XhnHm8uu92h34RjkDnJLlEVBhoxyUwtsi6gC4w0nzSnCus0K_Nz14ka4dbcDzgRSHK2u-dZ1AxV_1QUiP9yed2UW31zsXP95gf-He_278svL7wYD6FmhdkHGjXzPuutXNltlU1OqiHdUxGdd-JK0Te3CY_bqqc9CKTNCp8-gbDOZ_mpRYwW-fF3_gUNDWsel03OihuoVi3PQIijn1bryfM5sHhIgBdfvJDnFmY8kVHC_Use4KhiDgWQDbOPr_PUk7vCVj8"/>
+</div>
+</div>
+<div class="lg:col-span-5 lg:offset-1">
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-lg">
+                        We specialize in crafting websites that balance business needs with creativity, ensuring your online presence not only looks impressive but also drives conversions and growth.
+                    </p>
+<div class="pt-lg border-t border-outline-variant">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant block mb-md">Designing products backed by top-tier investors</span>
+<div class="flex flex-wrap items-center gap-gutter opacity-60">
+<span class="font-bold">techstars_</span>
+<span class="font-bold italic">Y Combinator</span>
+<span class="font-bold">a16z</span>
+<span class="font-bold text-label-sm">AND MORE</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+<section class="bg-surface-container-lowest py-16 rounded-[24px] md:rounded-[48px] mx-margin-mobile lg:mx-xl relative overflow-hidden">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop relative z-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-outline-variant/30">
+<div class="p-lg">
+<div class="font-display-lg text-headline-lg text-primary-container mb-2">500M+</div>
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">investments raised by our clients</div>
+</div>
+<div class="p-lg">
+<div class="font-display-lg text-headline-lg text-primary-container mb-2">x2</div>
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">avg projects per client — most come back</div>
+</div>
+<div class="p-lg">
+<div class="font-display-lg text-headline-lg text-primary-container mb-2">5.0</div>
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">on clutch — 40+ reviews</div>
+</div>
+<div class="p-lg">
+<div class="font-display-lg text-headline-lg text-primary-container mb-2">35%</div>
+<div class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">conversion lift — klickex case</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Our Expertise (Tabs Section) -->
+<section class="py-xxl">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-lg">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container mb-md block">What we do best</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg max-w-xl">Our Expertise</h2>
+</div>
+<p class="font-body-md text-on-surface-variant max-w-md">We blend strategic design with cutting-edge technology to create digital experiences that set industry standards.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<div class="lg:col-span-4 flex flex-col gap-2">
+<button class="tab-btn active group text-left p-6 rounded-xl transition-all border border-transparent hover:border-outline-variant bg-surface-container/30" data-index="0" onclick="switchTab(0)">
+<div class="flex items-center gap-4">
+<span class="text-primary-container font-bold">01</span>
+<span class="font-headline-sm text-body-lg font-bold group-[.active]:text-primary-container transition-colors">Back-Office Management</span>
+</div>
+</button>
+<button class="tab-btn group text-left p-6 rounded-xl transition-all border border-transparent hover:border-outline-variant" data-index="1" onclick="switchTab(1)">
+<div class="flex items-center gap-4">
+<span class="text-on-surface-variant font-bold">02</span>
+<span class="font-headline-sm text-body-lg font-bold group-[.active]:text-primary-container transition-colors">Automation &amp; AI Workflows</span>
+</div>
+</button>
+<button class="tab-btn group text-left p-6 rounded-xl transition-all border border-transparent hover:border-outline-variant" data-index="2" onclick="switchTab(2)">
+<div class="flex items-center gap-4">
+<span class="text-on-surface-variant font-bold">03</span>
+<span class="font-headline-sm text-body-lg font-bold group-[.active]:text-primary-container transition-colors">Web &amp; Platform Development</span>
+</div>
+</button>
+<button class="tab-btn group text-left p-6 rounded-xl transition-all border border-transparent hover:border-outline-variant" data-index="3" onclick="switchTab(3)">
+<div class="flex items-center gap-4">
+<span class="text-on-surface-variant font-bold">04</span>
+<span class="font-headline-sm text-body-lg font-bold group-[.active]:text-primary-container transition-colors">ERPNext Implementation</span>
+</div>
+</button>
+<button class="tab-btn group text-left p-6 rounded-xl transition-all border border-transparent hover:border-outline-variant" data-index="4" onclick="switchTab(4)">
+<div class="flex items-center gap-4">
+<span class="text-on-surface-variant font-bold">05</span>
+<span class="font-headline-sm text-body-lg font-bold group-[.active]:text-primary-container transition-colors">Growth &amp; Digital Enablement</span>
+</div>
+</button>
+<button class="tab-btn group text-left p-6 rounded-xl transition-all border border-transparent hover:border-outline-variant" data-index="5" onclick="switchTab(5)">
+<div class="flex items-center gap-4">
+<span class="text-on-surface-variant font-bold">06</span>
+<span class="font-headline-sm text-body-lg font-bold group-[.active]:text-primary-container transition-colors">Data, QA &amp; System Support</span>
+</div>
+</button>
+</div>
+<div class="lg:col-span-8">
+<div class="bg-surface-container border border-outline-variant p-lg md:p-xl rounded-xl h-full flex flex-col justify-between" id="tab-content">
+<div>
+<div class="flex justify-between items-start mb-lg">
+<h3 class="font-headline-md text-headline-md" id="content-title">Back-Office Management</h3>
+<div class="w-16 h-16 rounded-full bg-primary-container/10 flex items-center justify-center text-primary-container" id="content-icon">
+<span class="material-symbols-outlined text-4xl">settings_account_box</span>
+</div>
+</div>
+<p class="font-body-lg text-on-surface-variant mb-12 max-w-2xl" id="content-desc">
+                                Optimize your internal operations with custom-built management systems. We bridge the gap between complex workflows and intuitive user experiences to ensure your team operates at peak efficiency.
+                            </p>
+<ul class="space-y-4 mb-12" id="content-bullets">
+<li class="flex items-center gap-3 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-sm">check_circle</span>
+                                    Custom CRM &amp; ERP Solutions
+                                </li>
+<li class="flex items-center gap-3 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-sm">check_circle</span>
+                                    Internal Tooling Dashboards
+                                </li>
+<li class="flex items-center gap-3 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-sm">check_circle</span>
+                                    Legacy System Modernization
+                                </li>
+</ul>
+</div>
+<a class="inline-flex items-center gap-2 text-primary-container font-bold hover:underline group" href="#">
+                            Learn more about this service
+                            <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Who Benefits (Bento Grid) -->
+<section class="py-xxl bg-surface-container-lowest rounded-[24px] md:rounded-[48px] mx-margin-mobile lg:mx-xl">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="text-center mb-16">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container mb-md block">Tailored website solutions for your business</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg">Who benefits from our website <br class="hidden md:block"/> design services?</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<div class="p-10 border border-outline-variant bg-surface-container/40 hover:bg-surface-container transition-all group rounded-xl">
+<span class="text-on-surface-variant font-bold text-sm block mb-8">01</span>
+<h3 class="font-headline-md text-headline-sm mb-md group-hover:text-primary-container transition-colors">Small businesses</h3>
+<p class="text-on-surface-variant font-body-md">Looking for professional, growth-focused websites that drive results and help your business succeed.</p>
+</div>
+<div class="p-10 border border-outline-variant bg-surface-container/40 hover:bg-surface-container transition-all group rounded-xl">
+<span class="text-on-surface-variant font-bold text-sm block mb-8">02</span>
+<h3 class="font-headline-md text-headline-sm mb-md group-hover:text-primary-container transition-colors">B2B companies</h3>
+<p class="text-on-surface-variant font-body-md">Dedicated to creating high-performing platforms designed to generate quality leads and drive business growth.</p>
+</div>
+<div class="p-10 border border-outline-variant bg-surface-container/40 hover:bg-surface-container transition-all group rounded-xl">
+<span class="text-on-surface-variant font-bold text-sm block mb-8">03</span>
+<h3 class="font-headline-md text-headline-sm mb-md group-hover:text-primary-container transition-colors">SaaS providers</h3>
+<p class="text-on-surface-variant font-body-md">Looking to create user-centric designs that not only boost engagement but also enhance customer satisfaction and drive long-term loyalty.</p>
+</div>
+<div class="p-10 border border-outline-variant bg-surface-container/40 hover:bg-surface-container transition-all group rounded-xl">
+<span class="text-on-surface-variant font-bold text-sm block mb-8">04</span>
+<h3 class="font-headline-md text-headline-sm mb-md group-hover:text-primary-container transition-colors">Real Estate agents</h3>
+<p class="text-on-surface-variant font-body-md">Aiming to design intuitive, user-friendly property listing websites that simplify the search for the perfect home or rental.</p>
+</div>
+<div class="p-10 border border-outline-variant bg-surface-container/40 hover:bg-surface-container transition-all group rounded-xl">
+<span class="text-on-surface-variant font-bold text-sm block mb-8">05</span>
+<h3 class="font-headline-md text-headline-sm mb-md group-hover:text-primary-container transition-colors">Tech companies</h3>
+<p class="text-on-surface-variant font-body-md">Prioritizing user-focused designs to improve credibility, boost engagement, and create meaningful experiences.</p>
+</div>
+<div class="p-10 border border-outline-variant bg-surface-container/40 hover:bg-surface-container transition-all group rounded-xl">
+<span class="text-on-surface-variant font-bold text-sm block mb-8">06</span>
+<h3 class="font-headline-md text-headline-sm mb-md group-hover:text-primary-container transition-colors">E-commerce businesses</h3>
+<p class="text-on-surface-variant font-body-md">Dedicated to enhancing user experiences, building stronger customer connections, and driving significant sales growth.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us -->
+<section class="py-xxl">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter mb-20">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container mb-md block">Benefits of a professionally designed website</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg">Why should you choose our digital website design agency?</h2>
+</div>
+<div class="flex flex-col justify-end">
+<p class="font-body-lg text-on-surface-variant border-l-4 border-primary-container pl-8">We deliver more than just a website. We deliver a strategic asset that scales with your ambition.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-gutter gap-y-16">
+<div>
+<div class="mb-lg">
+<span class="material-symbols-outlined text-4xl text-primary-container">query_stats</span>
+</div>
+<h3 class="font-headline-md text-headline-sm mb-md">Optimizing for conversions</h3>
+<p class="text-on-surface-variant font-body-md">Our designs are strategically crafted to encourage visitor engagement and drive desired actions, boosting your conversion rates.</p>
+</div>
+<div>
+<div class="mb-lg">
+<span class="material-symbols-outlined text-4xl text-primary-container">trending_up</span>
+</div>
+<h3 class="font-headline-md text-headline-sm mb-md">Scalability &amp; flexibility</h3>
+<p class="text-on-surface-variant font-body-md">We create websites that evolve with your business, making updates and expansions seamless as you grow.</p>
+</div>
+<div>
+<div class="mb-lg">
+<span class="material-symbols-outlined text-4xl text-primary-container">balance</span>
+</div>
+<h3 class="font-headline-md text-headline-sm mb-md">Cost-effectiveness</h3>
+<p class="text-on-surface-variant font-body-md">Investing in high-quality web design today prevents costly redesigns later and minimizes revenue loss caused by poor user experiences.</p>
+</div>
+<div>
+<div class="mb-lg">
+<span class="material-symbols-outlined text-4xl text-primary-container">groups_3</span>
+</div>
+<h3 class="font-headline-md text-headline-sm mb-md">Mid-level and senior experts</h3>
+<p class="text-on-surface-variant font-body-md">Our team consists of mid-level and senior web designers with 7+ years of expertise in your specific industry, ensuring your website is perfectly aligned with your audience's expectations.</p>
+</div>
+<div>
+<div class="mb-lg">
+<span class="material-symbols-outlined text-4xl text-primary-container">verified_user</span>
+</div>
+<h3 class="font-headline-md text-headline-sm mb-md">Proven trust and high satisfaction</h3>
+<p class="text-on-surface-variant font-body-md">As a trusted website design company, we prioritize strong relationships with our clients. Our commitment to excellence has resulted in a 98% client satisfaction rate.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-xxl">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin-desktop">
+<div class="bg-surface-container rounded-3xl p-12 md:p-20 relative overflow-hidden text-center">
+<div class="absolute inset-0 bg-primary-container/5 -z-10"></div>
+<h2 class="font-display-lg text-headline-lg-mobile md:text-display-lg mb-10">Ready to start your next project?</h2>
+<button class="bg-primary-container text-on-primary-container px-12 py-5 font-label-sm uppercase tracking-widest rounded-full hover:scale-105 transition-transform">
+                    Let's Build Together
+                </button>
+</div>
+</div>
+</section>
+<script>
+        const tabData = [
+            {
+                title: "Back-Office Management",
+                icon: "settings_account_box",
+                desc: "Optimize your internal operations with custom-built management systems. We bridge the gap between complex workflows and intuitive user experiences to ensure your team operates at peak efficiency.",
+                bullets: ["Custom CRM & ERP Solutions", "Internal Tooling Dashboards", "Legacy System Modernization"]
+            },
+            {
+                title: "Automation & AI Workflows",
+                icon: "psychology",
+                desc: "Supercharge your productivity with intelligent automation. We integrate advanced AI models into your daily operations to eliminate repetitive tasks and surface actionable insights.",
+                bullets: ["LLM & Agent Integration", "Process Automation (RPA)", "Predictive Analytics Systems"]
+            },
+            {
+                title: "Web & Platform Development",
+                icon: "language",
+                desc: "Scaleable, high-performance web platforms built with the latest technologies. From consumer-facing marketplaces to complex enterprise portals, we build for speed and stability.",
+                bullets: ["React & Next.js Ecosystems", "Headless CMS Architecture", "Micro-services Integration"]
+            },
+            {
+                title: "ERPNext Implementation",
+                icon: "hub",
+                desc: "Specialized deployment of ERPNext tailored to your business vertical. We handle the migration, customization, and employee training to ensure a smooth digital transition.",
+                bullets: ["Financial Module Setup", "Supply Chain Customization", "Seamless Data Migration"]
+            },
+            {
+                title: "Growth & Digital Enablement",
+                icon: "auto_graph",
+                desc: "Strategic design that converts. We don't just build websites; we build marketing engines that capture leads and nurture them through data-driven design psychology.",
+                bullets: ["A/B Testing & Optimization", "SEO-First Architecture", "Lead Gen Funnel Design"]
+            },
+            {
+                title: "Data, QA & System Support",
+                icon: "verified",
+                desc: "Bulletproof your systems with our rigorous QA and maintenance services. We ensure your platform stays up, secure, and performing at its peak 24/7.",
+                bullets: ["End-to-End Automated Testing", "Security & Pen Testing", "24/7 Performance Monitoring"]
+            }
+        ];
+
+        function switchTab(index) {
+            const buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('active', 'bg-surface-container/30', 'border-outline-variant');
+                btn.classList.add('border-transparent');
+                const num = btn.querySelector('span:first-child');
+                num.classList.remove('text-primary-container');
+                num.classList.add('text-on-surface-variant');
+            });
+
+            const activeBtn = document.querySelector(`.tab-btn[data-index="${index}"]`);
+            activeBtn.classList.add('active', 'bg-surface-container/30', 'border-outline-variant');
+            activeBtn.classList.remove('border-transparent');
+            activeBtn.querySelector('span:first-child').classList.add('text-primary-container');
+
+            const container = document.getElementById('tab-content');
+            container.style.opacity = '0';
+            
+            setTimeout(() => {
+                const data = tabData[index];
+                document.getElementById('content-title').innerText = data.title;
+                document.getElementById('content-icon').querySelector('span').innerText = data.icon;
+                document.getElementById('content-desc').innerText = data.desc;
+                
+                const bulletList = document.getElementById('content-bullets');
+                bulletList.innerHTML = '';
+                data.bullets.forEach(bullet => {
+                    const li = document.createElement('li');
+                    li.className = 'flex items-center gap-3 text-on-surface-variant';
+                    li.innerHTML = `<span class="material-symbols-outlined text-primary-container text-sm">check_circle</span> ${bullet}`;
+                    bulletList.appendChild(li);
+                });
+                
+                container.style.opacity = '1';
+            }, 200);
+        }
+
+        document.getElementById('tab-content').style.transition = 'opacity 0.2s ease-in-out';
+    </script>
+</body></html>
