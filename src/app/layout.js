@@ -59,7 +59,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
       <body
         className={`${pressStart2P.variable} ${manrope.variable} ${sora.variable} ${silkscreen.variable} ${russoOne.variable} ${inter.variable} ${montserrat.variable} font-manrope bg-black overflow-x-hidden  text-white antialiased`}

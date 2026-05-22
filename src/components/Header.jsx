@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { HambargerIcon, LinkDownArrowIcon } from "./SvgIcons";
 import FadeInSection from "./animation/FadeEffect";
 
@@ -38,23 +38,10 @@ const links = [
 export default function Header() {
   const [isShowNav, setIsShowNav] = useState(false);
   const path = usePathname();
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
   return (
     <>
       <header className="fixed w-full h-fit top-0 z-[103]">
-        <div
-          className={`relative  ${
-            scrolled ? "bg-black/80" : "bg-black/80 lg:bg-transparent"
-          }`}
-        >
+        <div className="relative">
           <FadeInSection
             initial={{ opacity: 0, y: -100 }}
             scrollTop={{ opacity: 1, y: 0 }}
@@ -171,9 +158,7 @@ export default function Header() {
       {path === "/" && (
         <header className="fixed w-full h-fit top-0 z-[99]">
           <div
-            className={`relative  ${
-              scrolled ? "bg-black/80" : "bg-black/80 lg:bg-transparent"
-            }`}
+            className="relative"
           >
             <FadeInSection
               initial={{ opacity: 0, y: -100 }}

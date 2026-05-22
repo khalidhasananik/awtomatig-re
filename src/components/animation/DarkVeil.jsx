@@ -126,8 +126,10 @@ function DarkVeilCanvas({
 
     const start = performance.now();
     let frame = 0;
+    let cancelled = false;
 
     const loop = () => {
+      if (cancelled) return;
       program.uniforms.uTime.value = ((performance.now() - start) / 1000) * speed;
       program.uniforms.uHueShift.value = hueShift;
       program.uniforms.uNoise.value = noiseIntensity;
@@ -141,9 +143,9 @@ function DarkVeilCanvas({
     loop();
 
     return () => {
+      cancelled = true;
       cancelAnimationFrame(frame);
       window.removeEventListener("resize", resize);
-      renderer.gl.getExtension("WEBGL_lose_context")?.loseContext();
     };
   }, [hueShift, noiseIntensity, scanlineIntensity, speed, scanlineFrequency, warpAmount, resolutionScale]);
 
