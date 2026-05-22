@@ -2,22 +2,27 @@
 import cookieIcon from "@/assets/logo/cookie.png";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+
 export default function CookiePopup() {
-  const [isShowCookie, setisShowCookie] = useState(true);
+  const [isShowCookie, setIsShowCookie] = useState(false);
+
   useEffect(() => {
-    if (typeof window === "undefined") return;
     const cookieAccepted = localStorage.getItem("cookieAccepted");
-    if (cookieAccepted === "true") {
-      setisShowCookie(false);
+    if (cookieAccepted !== "true") {
+      setIsShowCookie(true);
     }
   }, []);
-  if (!isShowCookie) {
-    return null;
+
+  if (!isShowCookie) return null;
+
+  function handleAccept() {
+    localStorage.setItem("cookieAccepted", "true");
+    setIsShowCookie(false);
   }
 
   return (
     <div className="bg-[#4C4A4A5E] fixed top-0 left-0 w-full h-screen z-999">
-      <div className="bg-[#02D5E8] fixed bottom-0 left-0 w-full h-80 lg:h-28 shadow-[0px_4px_19.6px_4px_#00000040_inset] border-t-8 border-[#D9D9D9] text-black font-bold pt-4 text-center ">
+      <div className="bg-[#02D5E8] fixed bottom-0 left-0 w-full h-80 lg:h-28 shadow-[0px_4px_19.6px_4px_#00000040_inset] border-t-8 border-[#D9D9D9] text-black font-bold pt-4 text-center">
         <Image
           src={cookieIcon}
           alt="Cookie Icon"
@@ -27,13 +32,7 @@ export default function CookiePopup() {
         />
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-5">
           <p>Our website uses cookie to enhance your browsing experience.</p>
-          <button
-            onClick={() =>
-              localStorage.setItem("cookieAccepted", "true") ||
-              setisShowCookie(false)
-            }
-            className="bg-white px-4 py-1 rounded-lg"
-          >
+          <button onClick={handleAccept} className="bg-white px-4 py-1 rounded-lg">
             Accept
           </button>
         </div>
