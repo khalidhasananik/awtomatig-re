@@ -1,8 +1,54 @@
 export const servicesData = [
   {
     id: 1,
-    slug: "back-office-operational-excellence",
-    title: "Back-Office Operational Excellence",
+    slug: "web-platform-development",
+    title: "Web & Platform Development",
+    tagline: "Digital Foundation Building",
+    summary:
+      "We design and build scalable web applications, portals, and digital platforms tailored to your business — ensuring every layer of your tech stack is clean, fast, and ready to grow.",
+    heroDesc:
+      "Your platform is the backbone of everything. We build web applications and digital systems that are fast, scalable, and engineered for the long haul.",
+    features: [
+      {
+        heading: "Build Custom Web Applications & Portals",
+        desc: "We develop purpose-built web platforms that reflect your exact business requirements. From internal dashboards to customer-facing portals, every application is built for performance and scalability.",
+      },
+      {
+        heading: "Seamless API & Third-Party Integrations",
+        desc: "Connect your platform with the tools and services your business depends on. We architect and implement integrations that keep your tech ecosystem unified and data flowing reliably.",
+      },
+      {
+        heading: "Architecture Designed for Long-Term Growth",
+        desc: "We engineer platforms with scalability as a core principle — not an afterthought. Your system grows with your business without requiring costly rebuilds down the line.",
+      },
+    ],
+    process: [
+      {
+        step: "01",
+        title: "Discovery & Scoping",
+        desc: "We define your platform's purpose, users, and technical requirements through a thorough discovery process.",
+      },
+      {
+        step: "02",
+        title: "Design & Architecture",
+        desc: "We design the system architecture and UI/UX flows before writing a single line of code.",
+      },
+      {
+        step: "03",
+        title: "Development & QA",
+        desc: "We build, test, and iterate across your core features with quality checks at every stage.",
+      },
+      {
+        step: "04",
+        title: "Launch & Handoff",
+        desc: "We deploy your platform and provide documentation, training, and post-launch support.",
+      },
+    ],
+  },
+  {
+    id: 2,
+    slug: "back-office-management",
+    title: "Back-Office Management",
     tagline: "Core Support Streamline",
     summary:
       "We manage the day-to-day tasks that keep your business running reliably — from administrative execution to documentation, ensuring your operations never depend on memory or urgency.",
@@ -42,52 +88,6 @@ export const servicesData = [
         step: "04",
         title: "Continuous Optimization",
         desc: "We monitor performance and refine systems as your business evolves and scales.",
-      },
-    ],
-  },
-  {
-    id: 2,
-    slug: "crm-workflow-management",
-    title: "CRM & Workflow Management",
-    tagline: "Smart Architecture Systems",
-    summary:
-      "We configure structured CRM systems that reflect how your team actually works — aligning pipelines and ownership rules to ensure work flows clearly from one stage to the next.",
-    heroDesc:
-      "Turn your CRM from a contact list into a growth machine. We architect systems that give your team full clarity and your leadership full visibility.",
-    features: [
-      {
-        heading: "Systems Designed For Real-World Performance",
-        desc: "We configure structured CRM systems that reflect how your team actually works. By aligning pipelines and ownership rules, we ensure work flows clearly from one stage to the next.",
-      },
-      {
-        heading: "Eliminate Confusion with Clear Reporting",
-        desc: "Gain full visibility into your sales and operational funnels with custom reporting tools. We build the dashboards you need to make data-driven decisions without the manual guesswork.",
-      },
-      {
-        heading: "Automate Handoffs for Better Efficiency",
-        desc: "Bridge the gap between departments with seamless internal workflows. Our configurations ensure that communication is instant and every team member knows exactly what their next step is.",
-      },
-    ],
-    process: [
-      {
-        step: "01",
-        title: "CRM Assessment",
-        desc: "Audit your current CRM setup and identify gaps in pipeline coverage and data integrity.",
-      },
-      {
-        step: "02",
-        title: "Architecture Design",
-        desc: "Build a CRM structure that mirrors your real sales and operational motion.",
-      },
-      {
-        step: "03",
-        title: "Automation Setup",
-        desc: "Configure automated handoffs, reminders, and status triggers across teams.",
-      },
-      {
-        step: "04",
-        title: "Dashboard & Reporting",
-        desc: "Build custom dashboards that surface the metrics your leadership needs daily.",
       },
     ],
   },
@@ -139,8 +139,8 @@ export const servicesData = [
   },
   {
     id: 4,
-    slug: "custom-erpnext-implementation",
-    title: "Custom ERPNext Implementation",
+    slug: "erpnext-implementation",
+    title: "ERPNext Implementation",
     tagline: "Centralized Control System",
     summary:
       "We implement ERPNext to centralize your finance, inventory, sales, and HR into a single source of truth — one platform for your entire business.",
@@ -226,6 +226,52 @@ export const servicesData = [
         step: "04",
         title: "Optimization Loop",
         desc: "Establish reporting cadences and A/B testing frameworks for continuous improvement.",
+      },
+    ],
+  },
+  {
+    id: 6,
+    slug: "data-qa-system-support",
+    title: "Data, QA & System Support",
+    tagline: "Precision & Reliability",
+    summary:
+      "We ensure your data stays clean, your systems are thoroughly tested, and your operations continue without disruption — providing the quality assurance and technical support your business depends on.",
+    heroDesc:
+      "Operational confidence comes from reliable data and tested systems. We provide the QA rigor and technical support that keeps everything running exactly as intended.",
+    features: [
+      {
+        heading: "Maintain Data Integrity Across Your Systems",
+        desc: "We audit, clean, and structure your business data so every report, dashboard, and decision is built on accurate information. Bad data costs more than you think.",
+      },
+      {
+        heading: "Structured QA for Bug-Free Operations",
+        desc: "Before anything goes live, we test it. Our QA processes cover functional, regression, and edge-case testing to ensure your systems perform reliably under real-world conditions.",
+      },
+      {
+        heading: "Ongoing Technical Support & System Monitoring",
+        desc: "We provide continuous monitoring and responsive support to keep your platforms and workflows running smoothly — catching issues before they become business problems.",
+      },
+    ],
+    process: [
+      {
+        step: "01",
+        title: "Audit & Discovery",
+        desc: "We assess your current data quality, system health, and identify critical gaps in testing coverage.",
+      },
+      {
+        step: "02",
+        title: "Framework Setup",
+        desc: "We build testing protocols, data governance rules, and monitoring frameworks tailored to your stack.",
+      },
+      {
+        step: "03",
+        title: "QA Execution",
+        desc: "Our team runs structured test cycles, cleans your data, and resolves issues systematically.",
+      },
+      {
+        step: "04",
+        title: "Ongoing Support",
+        desc: "We provide continuous system monitoring, issue resolution, and regular quality reviews.",
       },
     ],
   },

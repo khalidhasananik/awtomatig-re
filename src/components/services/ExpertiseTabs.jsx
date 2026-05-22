@@ -39,27 +39,27 @@ export default function ExpertiseTabs() {
 
           <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] xl:grid-cols-[340px_1fr] gap-4 lg:gap-8">
             {/* Tab list */}
-            <div className="flex lg:flex-col gap-2 overflow-x-auto lg:overflow-x-visible pb-2 lg:pb-0 scrollbar-hide">
+            <div className="grid grid-cols-2 lg:flex lg:flex-col gap-2">
               {servicesData.map((service, i) => (
                 <button
                   key={service.id}
                   onClick={() => switchTab(i)}
-                  className={`flex-shrink-0 text-left px-5 py-4 rounded-xl border transition-all duration-300 ${
+                  className={`text-left px-4 py-3 lg:px-5 lg:py-4 rounded-xl border transition-all duration-300 ${
                     i === activeIndex
                       ? "bg-dark border-teal/50 shadow-[0_0_24px_rgba(2,213,232,0.12)]"
                       : "border-dark-2/20 bg-dark-1/40 hover:border-dark-2/50"
                   }`}
                 >
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-2 lg:gap-3">
                     <span
-                      className={`font-montserrat text-xs font-bold transition-colors ${
+                      className={`font-montserrat text-xs font-bold transition-colors flex-shrink-0 ${
                         i === activeIndex ? "text-teal" : "text-dark-2"
                       }`}
                     >
                       0{i + 1}
                     </span>
                     <span
-                      className={`font-inter font-semibold text-sm transition-colors ${
+                      className={`font-inter font-semibold text-xs lg:text-sm transition-colors leading-snug ${
                         i === activeIndex ? "text-white" : "text-dark-white/50"
                       }`}
                     >
