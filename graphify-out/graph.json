@@ -4,283 +4,85 @@
   "graph": {},
   "nodes": [
     {
-      "label": "package.json",
+      "label": "settings.json",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": ".claude/settings.json",
       "source_location": "L1",
-      "id": "package_json",
-      "community": 68,
-      "norm_label": "package.json"
+      "id": "claude_settings_json",
+      "community": 1,
+      "norm_label": "settings.json"
     },
     {
-      "label": "name",
+      "label": "permissions",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": ".claude/settings.json",
       "source_location": "L2",
-      "id": "awtomatig_main_package_name",
-      "community": 68,
-      "norm_label": "name"
+      "id": "claude_settings_permissions",
+      "community": 1,
+      "norm_label": "permissions"
     },
     {
-      "label": "version",
+      "label": "allow",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": ".claude/settings.json",
       "source_location": "L3",
-      "id": "awtomatig_main_package_version",
-      "community": 68,
-      "norm_label": "version"
+      "id": "claude_settings_permissions_allow",
+      "community": 1,
+      "norm_label": "allow"
     },
     {
-      "label": "private",
+      "label": "hooks",
       "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "id": "awtomatig_main_package_private",
-      "community": 68,
-      "norm_label": "private"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "id": "awtomatig_main_package_scripts",
-      "community": 68,
-      "norm_label": "scripts"
-    },
-    {
-      "label": "dev",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "id": "awtomatig_main_package_scripts_dev",
-      "community": 68,
-      "norm_label": "dev"
-    },
-    {
-      "label": "build",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "id": "awtomatig_main_package_scripts_build",
-      "community": 68,
-      "norm_label": "build"
-    },
-    {
-      "label": "start",
-      "file_type": "code",
-      "source_file": "package.json",
+      "source_file": ".claude/settings.json",
       "source_location": "L8",
-      "id": "awtomatig_main_package_scripts_start",
-      "community": 68,
-      "norm_label": "start"
+      "id": "claude_settings_hooks",
+      "community": 1,
+      "norm_label": "hooks"
     },
     {
-      "label": "lint",
+      "label": "PreToolUse",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": ".claude/settings.json",
       "source_location": "L9",
-      "id": "awtomatig_main_package_scripts_lint",
-      "community": 68,
-      "norm_label": "lint"
+      "id": "claude_settings_hooks_pretooluse",
+      "community": 1,
+      "norm_label": "pretooluse"
     },
     {
-      "label": "dependencies",
+      "label": "settings.local.json",
       "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "id": "awtomatig_main_package_dependencies",
-      "community": 19,
-      "norm_label": "dependencies"
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L1",
+      "id": "claude_settings_local_json",
+      "community": 72,
+      "norm_label": "settings.local.json"
     },
     {
-      "label": "@next/third-parties",
+      "label": "permissions",
       "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "id": "awtomatig_main_package_dependencies_next_third_parties",
-      "community": 19,
-      "norm_label": "@next/third-parties"
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L2",
+      "id": "claude_settings_local_permissions",
+      "community": 72,
+      "norm_label": "permissions"
     },
     {
-      "label": "gsap",
+      "label": "allow",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L3",
+      "id": "claude_settings_local_permissions_allow",
+      "community": 72,
+      "norm_label": "allow"
+    },
+    {
+      "label": "additionalDirectories",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
       "source_location": "L13",
-      "id": "awtomatig_main_package_dependencies_gsap",
-      "community": 19,
-      "norm_label": "gsap"
-    },
-    {
-      "label": "motion",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "id": "awtomatig_main_package_dependencies_motion",
-      "community": 19,
-      "norm_label": "motion"
-    },
-    {
-      "label": "next",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "id": "awtomatig_main_package_dependencies_next",
-      "community": 19,
-      "norm_label": "next"
-    },
-    {
-      "label": "nodemailer",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "id": "awtomatig_main_package_dependencies_nodemailer",
-      "community": 19,
-      "norm_label": "nodemailer"
-    },
-    {
-      "label": "ogl",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "id": "awtomatig_main_package_dependencies_ogl",
-      "community": 19,
-      "norm_label": "ogl"
-    },
-    {
-      "label": "postprocessing",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "id": "awtomatig_main_package_dependencies_postprocessing",
-      "community": 19,
-      "norm_label": "postprocessing"
-    },
-    {
-      "label": "react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L19",
-      "id": "awtomatig_main_package_dependencies_react",
-      "community": 19,
-      "norm_label": "react"
-    },
-    {
-      "label": "react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "id": "awtomatig_main_package_dependencies_react_dom",
-      "community": 19,
-      "norm_label": "react-dom"
-    },
-    {
-      "label": "react-fast-marquee",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "id": "awtomatig_main_package_dependencies_react_fast_marquee",
-      "community": 19,
-      "norm_label": "react-fast-marquee"
-    },
-    {
-      "label": "react-tsparticles",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "id": "awtomatig_main_package_dependencies_react_tsparticles",
-      "community": 19,
-      "norm_label": "react-tsparticles"
-    },
-    {
-      "label": "swiper",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "id": "awtomatig_main_package_dependencies_swiper",
-      "community": 19,
-      "norm_label": "swiper"
-    },
-    {
-      "label": "three",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "id": "awtomatig_main_package_dependencies_three",
-      "community": 19,
-      "norm_label": "three"
-    },
-    {
-      "label": "tsparticles-slim",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "id": "awtomatig_main_package_dependencies_tsparticles_slim",
-      "community": 19,
-      "norm_label": "tsparticles-slim"
-    },
-    {
-      "label": "devDependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L27",
-      "id": "awtomatig_main_package_devdependencies",
-      "community": 68,
-      "norm_label": "devdependencies"
-    },
-    {
-      "label": "@eslint/eslintrc",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L28",
-      "id": "awtomatig_main_package_devdependencies_eslint_eslintrc",
-      "community": 68,
-      "norm_label": "@eslint/eslintrc"
-    },
-    {
-      "label": "@iconify/react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L29",
-      "id": "awtomatig_main_package_devdependencies_iconify_react",
-      "community": 68,
-      "norm_label": "@iconify/react"
-    },
-    {
-      "label": "@tailwindcss/postcss",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L30",
-      "id": "awtomatig_main_package_devdependencies_tailwindcss_postcss",
-      "community": 68,
-      "norm_label": "@tailwindcss/postcss"
-    },
-    {
-      "label": "eslint",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L31",
-      "id": "awtomatig_main_package_devdependencies_eslint",
-      "community": 68,
-      "norm_label": "eslint"
-    },
-    {
-      "label": "eslint-config-next",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L32",
-      "id": "awtomatig_main_package_devdependencies_eslint_config_next",
-      "community": 68,
-      "norm_label": "eslint-config-next"
-    },
-    {
-      "label": "tailwindcss",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L33",
-      "id": "awtomatig_main_package_devdependencies_tailwindcss",
-      "community": 68,
-      "norm_label": "tailwindcss"
+      "id": "claude_settings_local_permissions_additionaldirectories",
+      "community": 72,
+      "norm_label": "additionaldirectories"
     },
     {
       "label": "page.js",
@@ -301,31 +103,22 @@
       "norm_label": "home()"
     },
     {
-      "label": "LineWaves.jsx",
+      "label": "sitemap.js",
       "file_type": "code",
-      "source_file": "src/components/animation/LineWaves.jsx",
+      "source_file": "src/app/sitemap.js",
       "source_location": "L1",
-      "id": "src_components_animation_linewaves_jsx",
-      "community": 71,
-      "norm_label": "linewaves.jsx"
+      "id": "src_app_sitemap_js",
+      "community": 33,
+      "norm_label": "sitemap.js"
     },
     {
-      "label": "hexToVec3()",
+      "label": "sitemap()",
       "file_type": "code",
-      "source_file": "src/components/animation/LineWaves.jsx",
+      "source_file": "src/app/sitemap.js",
       "source_location": "L6",
-      "id": "animation_linewaves_hextovec3",
-      "community": 71,
-      "norm_label": "hextovec3()"
-    },
-    {
-      "label": "LineWaves()",
-      "file_type": "code",
-      "source_file": "src/components/animation/LineWaves.jsx",
-      "source_location": "L134",
-      "id": "animation_linewaves_linewaves",
-      "community": 71,
-      "norm_label": "linewaves()"
+      "id": "app_sitemap_sitemap",
+      "community": 33,
+      "norm_label": "sitemap()"
     },
     {
       "label": "PixelBlast.jsx",
@@ -373,76 +166,382 @@
       "norm_label": "pixelblast()"
     },
     {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "community": 68,
+      "norm_label": "package.json",
+      "id": "package_json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "community": 68,
+      "norm_label": "name",
+      "id": "awtomatig_main_package_name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "community": 68,
+      "norm_label": "version",
+      "id": "awtomatig_main_package_version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "community": 68,
+      "norm_label": "private",
+      "id": "awtomatig_main_package_private"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "community": 68,
+      "norm_label": "scripts",
+      "id": "awtomatig_main_package_scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "community": 68,
+      "norm_label": "dev",
+      "id": "awtomatig_main_package_scripts_dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "community": 68,
+      "norm_label": "build",
+      "id": "awtomatig_main_package_scripts_build"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "community": 68,
+      "norm_label": "start",
+      "id": "awtomatig_main_package_scripts_start"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "community": 68,
+      "norm_label": "lint",
+      "id": "awtomatig_main_package_scripts_lint"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "community": 68,
+      "norm_label": "dependencies",
+      "id": "awtomatig_main_package_dependencies"
+    },
+    {
+      "label": "@next/third-parties",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "community": 68,
+      "norm_label": "@next/third-parties",
+      "id": "awtomatig_main_package_dependencies_next_third_parties"
+    },
+    {
+      "label": "gsap",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "community": 68,
+      "norm_label": "gsap",
+      "id": "awtomatig_main_package_dependencies_gsap"
+    },
+    {
+      "label": "motion",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "community": 68,
+      "norm_label": "motion",
+      "id": "awtomatig_main_package_dependencies_motion"
+    },
+    {
+      "label": "next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "community": 68,
+      "norm_label": "next",
+      "id": "awtomatig_main_package_dependencies_next"
+    },
+    {
+      "label": "nodemailer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "community": 68,
+      "norm_label": "nodemailer",
+      "id": "awtomatig_main_package_dependencies_nodemailer"
+    },
+    {
+      "label": "ogl",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "community": 68,
+      "norm_label": "ogl",
+      "id": "awtomatig_main_package_dependencies_ogl"
+    },
+    {
+      "label": "postprocessing",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "community": 68,
+      "norm_label": "postprocessing",
+      "id": "awtomatig_main_package_dependencies_postprocessing"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "community": 68,
+      "norm_label": "react",
+      "id": "awtomatig_main_package_dependencies_react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "community": 68,
+      "norm_label": "react-dom",
+      "id": "awtomatig_main_package_dependencies_react_dom"
+    },
+    {
+      "label": "react-fast-marquee",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "community": 68,
+      "norm_label": "react-fast-marquee",
+      "id": "awtomatig_main_package_dependencies_react_fast_marquee"
+    },
+    {
+      "label": "react-tsparticles",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "community": 68,
+      "norm_label": "react-tsparticles",
+      "id": "awtomatig_main_package_dependencies_react_tsparticles"
+    },
+    {
+      "label": "swiper",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "community": 68,
+      "norm_label": "swiper",
+      "id": "awtomatig_main_package_dependencies_swiper"
+    },
+    {
+      "label": "three",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "community": 68,
+      "norm_label": "three",
+      "id": "awtomatig_main_package_dependencies_three"
+    },
+    {
+      "label": "tsparticles-slim",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "community": 68,
+      "norm_label": "tsparticles-slim",
+      "id": "awtomatig_main_package_dependencies_tsparticles_slim"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "community": 68,
+      "norm_label": "devdependencies",
+      "id": "awtomatig_main_package_devdependencies"
+    },
+    {
+      "label": "@eslint/eslintrc",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "community": 68,
+      "norm_label": "@eslint/eslintrc",
+      "id": "awtomatig_main_package_devdependencies_eslint_eslintrc"
+    },
+    {
+      "label": "@iconify/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "community": 68,
+      "norm_label": "@iconify/react",
+      "id": "awtomatig_main_package_devdependencies_iconify_react"
+    },
+    {
+      "label": "@tailwindcss/postcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "community": 68,
+      "norm_label": "@tailwindcss/postcss",
+      "id": "awtomatig_main_package_devdependencies_tailwindcss_postcss"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "community": 68,
+      "norm_label": "eslint",
+      "id": "awtomatig_main_package_devdependencies_eslint"
+    },
+    {
+      "label": "eslint-config-next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "community": 68,
+      "norm_label": "eslint-config-next",
+      "id": "awtomatig_main_package_devdependencies_eslint_config_next"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "community": 68,
+      "norm_label": "tailwindcss",
+      "id": "awtomatig_main_package_devdependencies_tailwindcss"
+    },
+    {
+      "label": "LineWaves.jsx",
+      "file_type": "code",
+      "source_file": "src/components/animation/LineWaves.jsx",
+      "source_location": "L1",
+      "community": 71,
+      "norm_label": "linewaves.jsx",
+      "id": "src_components_animation_linewaves_jsx"
+    },
+    {
+      "label": "hexToVec3()",
+      "file_type": "code",
+      "source_file": "src/components/animation/LineWaves.jsx",
+      "source_location": "L6",
+      "community": 71,
+      "norm_label": "hextovec3()",
+      "id": "animation_linewaves_hextovec3"
+    },
+    {
+      "label": "LineWaves()",
+      "file_type": "code",
+      "source_file": "src/components/animation/LineWaves.jsx",
+      "source_location": "L134",
+      "community": 71,
+      "norm_label": "linewaves()",
+      "id": "animation_linewaves_linewaves"
+    },
+    {
       "label": "BlogTimeline.jsx",
       "file_type": "code",
       "source_file": "src/components/home/BlogTimeline.jsx",
       "source_location": "L1",
-      "id": "src_components_home_blogtimeline_jsx",
       "community": 0,
-      "norm_label": "blogtimeline.jsx"
+      "norm_label": "blogtimeline.jsx",
+      "id": "src_components_home_blogtimeline_jsx"
     },
     {
       "label": "blogData",
       "file_type": "code",
       "source_file": "src/components/home/BlogTimeline.jsx",
       "source_location": "L7",
-      "id": "home_blogtimeline_blogdata",
       "community": 0,
-      "norm_label": "blogdata"
+      "norm_label": "blogdata",
+      "id": "home_blogtimeline_blogdata"
     },
     {
       "label": "BlogTimeline()",
       "file_type": "code",
       "source_file": "src/components/home/BlogTimeline.jsx",
       "source_location": "L54",
-      "id": "home_blogtimeline_blogtimeline",
       "community": 0,
-      "norm_label": "blogtimeline()"
+      "norm_label": "blogtimeline()",
+      "id": "home_blogtimeline_blogtimeline"
     },
     {
       "label": "Hero.jsx",
       "file_type": "code",
       "source_file": "src/components/home/Hero.jsx",
       "source_location": "L1",
-      "id": "src_components_home_hero_jsx",
       "community": 0,
-      "norm_label": "hero.jsx"
+      "norm_label": "hero.jsx",
+      "id": "src_components_home_hero_jsx"
     },
     {
       "label": "Hero()",
       "file_type": "code",
       "source_file": "src/components/home/Hero.jsx",
       "source_location": "L6",
-      "id": "home_hero_hero",
       "community": 0,
-      "norm_label": "hero()"
+      "norm_label": "hero()",
+      "id": "home_hero_hero"
     },
     {
       "label": "Services.jsx",
       "file_type": "code",
       "source_file": "src/components/home/Services.jsx",
       "source_location": "L1",
-      "id": "src_components_home_services_jsx",
       "community": 0,
-      "norm_label": "services.jsx"
+      "norm_label": "services.jsx",
+      "id": "src_components_home_services_jsx"
     },
     {
       "label": "whyData",
       "file_type": "code",
       "source_file": "src/components/home/Services.jsx",
       "source_location": "L4",
-      "id": "home_services_whydata",
       "community": 0,
-      "norm_label": "whydata"
+      "norm_label": "whydata",
+      "id": "home_services_whydata"
     },
     {
       "label": "Services()",
       "file_type": "code",
       "source_file": "src/components/home/Services.jsx",
       "source_location": "L27",
-      "id": "home_services_services",
       "community": 0,
-      "norm_label": "services()"
+      "norm_label": "services()",
+      "id": "home_services_services"
     },
     {
       "label": "layout.js",
@@ -1001,15 +1100,6 @@
       "community": 33,
       "norm_label": "sitemap.js",
       "id": "app_sitemap_js"
-    },
-    {
-      "label": "sitemap()",
-      "file_type": "code",
-      "source_file": "app/sitemap.js",
-      "source_location": "L5",
-      "community": 33,
-      "norm_label": "sitemap()",
-      "id": "app_sitemap_sitemap"
     },
     {
       "label": "route.js",
@@ -1821,7 +1911,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "root layout",
       "id": "layout_rootlayout"
     },
@@ -1847,7 +1937,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "home page",
       "id": "page_home"
     },
@@ -1873,7 +1963,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 19,
       "norm_label": "sitemap",
       "id": "sitemap_sitemap"
     },
@@ -1912,7 +2002,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 19,
       "norm_label": "case studies listing page",
       "id": "casestudies_page"
     },
@@ -1925,7 +2015,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 19,
       "norm_label": "single case study page",
       "id": "casestudies_slug_page"
     },
@@ -2055,7 +2145,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 19,
       "norm_label": "case studies data constants",
       "id": "contants_casestudies"
     },
@@ -2081,7 +2171,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "header component",
       "id": "components_header"
     },
@@ -2094,7 +2184,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "footer component",
       "id": "components_footer"
     },
@@ -2107,7 +2197,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "gtmprovider component",
       "id": "components_gtmprovider"
     },
@@ -2120,7 +2210,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "cookiepopup component",
       "id": "components_cookiepopup"
     },
@@ -2133,7 +2223,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "gridanimatedbg component",
       "id": "components_gridanimatedbg"
     },
@@ -2146,7 +2236,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "hero component",
       "id": "components_hero"
     },
@@ -2159,7 +2249,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "whyus component",
       "id": "components_whyus"
     },
@@ -2185,7 +2275,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "services home section",
       "id": "components_services_home"
     },
@@ -2198,7 +2288,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "ourproccess component",
       "id": "components_ourproccess"
     },
@@ -2211,7 +2301,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "impact component",
       "id": "components_impact"
     },
@@ -2224,7 +2314,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "keepflyingmarquee component",
       "id": "components_keepflyingmarquee"
     },
@@ -2237,7 +2327,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "futurechanges component",
       "id": "components_futurechanges"
     },
@@ -2250,7 +2340,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "ourcapabilities component",
       "id": "components_ourcapabilities"
     },
@@ -2263,7 +2353,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "testimonials component",
       "id": "components_testimonials"
     },
@@ -2276,7 +2366,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 4,
       "norm_label": "blogtimeline component",
       "id": "components_blogtimeline"
     },
@@ -3858,6 +3948,156 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_permissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_settings_permissions",
+      "target": "claude_settings_permissions_allow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_settings_hooks",
+      "target": "claude_settings_hooks_pretooluse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_settings_local_json",
+      "target": "claude_settings_local_permissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_settings_local_permissions",
+      "target": "claude_settings_local_permissions_allow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "claude_settings_local_permissions",
+      "target": "claude_settings_local_permissions_additionaldirectories",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_page_js",
+      "target": "app_page_home"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_js",
+      "target": "app_page_home"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/sitemap.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_sitemap_js",
+      "target": "app_sitemap_sitemap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/sitemap.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_sitemap_js",
+      "target": "app_sitemap_sitemap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/animation/PixelBlast.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_animation_pixelblast_jsx",
+      "target": "animation_pixelblast_createtouchtexture"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/animation/PixelBlast.jsx",
+      "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_animation_pixelblast_jsx",
+      "target": "animation_pixelblast_createliquideffect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/animation/PixelBlast.jsx",
+      "source_location": "L123",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_animation_pixelblast_jsx",
+      "target": "animation_pixelblast_shape_map"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/animation/PixelBlast.jsx",
+      "source_location": "L304",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_animation_pixelblast_jsx",
+      "target": "animation_pixelblast_pixelblast"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
@@ -4021,9 +4261,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "awtomatig_main_package_dependencies",
-      "target": "awtomatig_main_package_dependencies_postprocessing",
-      "confidence_score": 1.0
+      "target": "awtomatig_main_package_dependencies_postprocessing"
     },
     {
       "relation": "contains",
@@ -4081,9 +4321,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "awtomatig_main_package_dependencies",
-      "target": "awtomatig_main_package_dependencies_three",
-      "confidence_score": 1.0
+      "target": "awtomatig_main_package_dependencies_three"
     },
     {
       "relation": "contains",
@@ -4158,32 +4398,12 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/app/page.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_page_js",
-      "target": "app_page_home"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/page.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_page_js",
-      "target": "app_page_home"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "src/components/animation/LineWaves.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_animation_linewaves_jsx",
-      "target": "animation_linewaves_hextovec3",
-      "confidence_score": 1.0
+      "target": "animation_linewaves_hextovec3"
     },
     {
       "relation": "contains",
@@ -4191,49 +4411,9 @@
       "source_file": "src/components/animation/LineWaves.jsx",
       "source_location": "L134",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_animation_linewaves_jsx",
-      "target": "animation_linewaves_linewaves",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/animation/PixelBlast.jsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_components_animation_pixelblast_jsx",
-      "target": "animation_pixelblast_createtouchtexture",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/animation/PixelBlast.jsx",
-      "source_location": "L93",
-      "weight": 1.0,
-      "source": "src_components_animation_pixelblast_jsx",
-      "target": "animation_pixelblast_createliquideffect",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/animation/PixelBlast.jsx",
-      "source_location": "L123",
-      "weight": 1.0,
-      "source": "src_components_animation_pixelblast_jsx",
-      "target": "animation_pixelblast_shape_map",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/animation/PixelBlast.jsx",
-      "source_location": "L304",
-      "weight": 1.0,
-      "source": "src_components_animation_pixelblast_jsx",
-      "target": "animation_pixelblast_pixelblast",
-      "confidence_score": 1.0
+      "target": "animation_linewaves_linewaves"
     },
     {
       "relation": "contains",
@@ -4241,9 +4421,9 @@
       "source_file": "src/components/home/BlogTimeline.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_home_blogtimeline_jsx",
-      "target": "home_blogtimeline_blogdata",
-      "confidence_score": 1.0
+      "target": "home_blogtimeline_blogdata"
     },
     {
       "relation": "contains",
@@ -4251,9 +4431,9 @@
       "source_file": "src/components/home/BlogTimeline.jsx",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_home_blogtimeline_jsx",
-      "target": "home_blogtimeline_blogtimeline",
-      "confidence_score": 1.0
+      "target": "home_blogtimeline_blogtimeline"
     },
     {
       "relation": "contains",
@@ -4281,9 +4461,9 @@
       "source_file": "src/components/home/Hero.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_home_hero_jsx",
-      "target": "home_hero_hero",
-      "confidence_score": 1.0
+      "target": "home_hero_hero"
     },
     {
       "relation": "contains",
@@ -4301,9 +4481,9 @@
       "source_file": "src/components/home/Services.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_home_services_jsx",
-      "target": "home_services_whydata",
-      "confidence_score": 1.0
+      "target": "home_services_whydata"
     },
     {
       "relation": "contains",
@@ -4311,9 +4491,9 @@
       "source_file": "src/components/home/Services.jsx",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_home_services_jsx",
-      "target": "home_services_services",
-      "confidence_score": 1.0
+      "target": "home_services_services"
     },
     {
       "relation": "contains",
@@ -4832,16 +5012,6 @@
       "confidence_score": 1.0,
       "source": "app_robots_js",
       "target": "app_robots_robots"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/sitemap.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_sitemap_js",
-      "target": "app_sitemap_sitemap"
     },
     {
       "relation": "contains",
@@ -7470,5 +7640,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b7e8d8a703e931d0e61934786bbac969392cfdbd"
+  "built_at_commit": "390f52468b2f2dbf3418eb75b98a4b2be7e5ff1d"
 }

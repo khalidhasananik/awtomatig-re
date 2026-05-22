@@ -35,8 +35,8 @@
     "semantic_hash": "745f5bd4114c095c9e36720232dc267b"
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\page.js": {
-    "mtime": 1779472909.1554997,
-    "ast_hash": "2400e37a79f466602faec9f0c4180b9c",
+    "mtime": 1779473229.4461443,
+    "ast_hash": "dae03447a4f79a8a1fef073a81d589e2",
     "semantic_hash": ""
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\robots.js": {
@@ -45,9 +45,9 @@
     "semantic_hash": "253fac1118bf70b96519d89085ad5b6a"
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\sitemap.js": {
-    "mtime": 1778832764.0,
-    "ast_hash": "8e83dce49301a4facdb8ad13c17bd139",
-    "semantic_hash": "8e83dce49301a4facdb8ad13c17bd139"
+    "mtime": 1779473535.6346085,
+    "ast_hash": "a91dc93c1461759c57315f39e32603e1",
+    "semantic_hash": ""
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\about-us\\page.jsx": {
     "mtime": 1779445474.2132967,
@@ -770,8 +770,18 @@
     "semantic_hash": ""
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\animation\\PixelBlast.jsx": {
-    "mtime": 1779472779.8280137,
-    "ast_hash": "6d69fdff8118998a723cfb6b6c0bbe76",
+    "mtime": 1779473118.217759,
+    "ast_hash": "8889ca152ce160a61defbffdc7325096",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\.claude\\settings.json": {
+    "mtime": 1779472239.3545897,
+    "ast_hash": "ce26683e6e8a140b1fc8167defdecedd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\.claude\\settings.local.json": {
+    "mtime": 1779454652.445515,
+    "ast_hash": "2bcec289fe90551d2fe261118b8803f3",
     "semantic_hash": ""
   }
 }

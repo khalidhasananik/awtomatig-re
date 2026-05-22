@@ -1,16 +1,16 @@
 # Graph Report - awtomatig-main  (2026-05-23)
 
 ## Corpus Check
-- 74 files · ~2,499,954 words
+- 76 files · ~2,500,144 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 358 nodes · 357 edges · 72 communities (45 shown, 27 thin omitted)
-- Extraction: 85% EXTRACTED · 15% INFERRED · 0% AMBIGUOUS · INFERRED: 52 edges (avg confidence: 0.84)
+- 368 nodes · 365 edges · 73 communities (45 shown, 28 thin omitted)
+- Extraction: 86% EXTRACTED · 14% INFERRED · 0% AMBIGUOUS · INFERRED: 52 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b7e8d8a7`
+- Built from commit: `390f5246`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -41,6 +41,7 @@
 - [[_COMMUNITY_Community 24|Community 24]]
 - [[_COMMUNITY_Community 25|Community 25]]
 - [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_Community 33|Community 33]]
 - [[_COMMUNITY_Community 35|Community 35]]
 - [[_COMMUNITY_Community 40|Community 40]]
 - [[_COMMUNITY_Community 43|Community 43]]
@@ -64,6 +65,7 @@
 - [[_COMMUNITY_Community 68|Community 68]]
 - [[_COMMUNITY_Community 69|Community 69]]
 - [[_COMMUNITY_Community 70|Community 70]]
+- [[_COMMUNITY_Community 72|Community 72]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Home Page` - 14 edges
@@ -80,24 +82,24 @@
 ## Surprising Connections (you probably didn't know these)
 - `FadeInSection Animation Component` --semantically_similar_to--> `GsapScrollEffect Animation Component`  [INFERRED] [semantically similar]
   src/components/animation/FadeEffect.jsx → src/components/animation/GsapScrollEffect.jsx
-- `Home Page` --calls--> `MarqueHighlightText Component`  [EXTRACTED]
-  src/app/page.js → src/components/MarqueHighlightText.jsx
-- `Home Page` --calls--> `Sponsor Component`  [EXTRACTED]
-  src/app/page.js → src/components/services/Sponsor.jsx
 - `Accordion Component` --shares_data_with--> `Capabilities/FAQ Constants`  [INFERRED]
   src/components/Accordion.jsx → src/contants/capabilities.js
 - `BorderAnimateButton Component` --semantically_similar_to--> `AnimatedButton Component`  [INFERRED] [semantically similar]
   src/components/BorderAnimateButton.jsx → src/components/AnimatedButton.jsx
+- `Case Studies Data Constants` --conceptually_related_to--> `Capabilities/FAQ Constants`  [INFERRED]
+  src/contants/case-studies.js → src/contants/capabilities.js
+- `Capabilities/FAQ Constants` --conceptually_related_to--> `Services Data Constants`  [INFERRED]
+  src/contants/capabilities.js → src/contants/services.js
 
-## Communities (72 total, 27 thin omitted)
+## Communities (73 total, 28 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.05
 Nodes (8): blogData, BlogTimeline(), Hero(), data, Services(), whyData, servicesCard, sponsorLogos
 
 ### Community 1 - "Community 1"
-Cohesion: 0.12
-Nodes (17): BlogTimeline Component, CookiePopup Component, Footer Component, FutureChanges Component, GridAnimatedBg Component, GTMProvider Component, Header Component, Hero Component (+9 more)
+Cohesion: 0.40
+Nodes (4): hooks, PreToolUse, permissions, allow
 
 ### Community 2 - "Community 2"
 Cohesion: 0.17
@@ -108,8 +110,8 @@ Cohesion: 0.16
 Nodes (10): Awtomatig Brand Identity, Cyan Color Scheme, Geometric Isometric Box Shape, Awtomatig Logo, Vertical Striped Texture Pattern, links, HambargerIcon(), LinkDownArrowIcon() (+2 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.08
-Nodes (31): About Us Page, Case Studies Listing Page, Single Case Study Page, Accordion Component, AnimatedButton Component, BackgroundAnimation Component, Benifits Component, BorderAnimateButton Component (+23 more)
+Cohesion: 0.05
+Nodes (44): About Us Page, Accordion Component, AnimatedButton Component, BackgroundAnimation Component, Benifits Component, BlogTimeline Component, BorderAnimateButton Component, CommonHeading Component (+36 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.20
@@ -164,8 +166,8 @@ Cohesion: 0.50
 Nodes (4): Rainbow Color Gradient Palette (Blue, Purple, Magenta, Pink, Orange), Rainbow Polygonal Background Image, Home Section Visual Asset, Low-Poly Geometric Design Style
 
 ### Community 19 - "Community 19"
-Cohesion: 0.13
-Nodes (15): dependencies, gsap, motion, next, @next/third-parties, nodemailer, ogl, postprocessing (+7 more)
+Cohesion: 0.67
+Nodes (4): Case Studies Listing Page, Single Case Study Page, Case Studies Data Constants, Sitemap
 
 ### Community 23 - "Community 23"
 Cohesion: 1.00
@@ -176,28 +178,30 @@ Cohesion: 1.00
 Nodes (3): Brand Founding Year Marker, Cyan Outline Typography Style, Since 2022 Text Logo Asset
 
 ### Community 68 - "Community 68"
-Cohesion: 0.12
-Nodes (15): devDependencies, eslint, eslint-config-next, @eslint/eslintrc, @iconify/react, tailwindcss, @tailwindcss/postcss, name (+7 more)
+Cohesion: 0.06
+Nodes (30): dependencies, gsap, motion, next, @next/third-parties, nodemailer, ogl, postprocessing (+22 more)
+
+### Community 72 - "Community 72"
+Cohesion: 0.50
+Nodes (3): permissions, additionalDirectories, allow
 
 ## Knowledge Gaps
-- **115 isolated node(s):** `name`, `version`, `private`, `dev`, `build` (+110 more)
+- **119 isolated node(s):** `allow`, `PreToolUse`, `allow`, `additionalDirectories`, `SHAPE_MAP` (+114 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **27 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **28 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `GTM Push Event Library` connect `Community 2` to `Community 4`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
-- **Why does `Home Page` connect `Community 1` to `Community 4`?**
   _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `GetInTouch Contact Component` (e.g. with `GTMProvider Component` and `Hero Section Component`) actually correct?**
   _`GetInTouch Contact Component` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `name`, `version`, `private` to the rest of the system?**
-  _115 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `allow`, `PreToolUse`, `allow` to the rest of the system?**
+  _119 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.054078014184397165 - nodes in this community are weakly interconnected._
-- **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.08172043010752689 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05391120507399577 - nodes in this community are weakly interconnected._
+- **Should `Community 68` be split into smaller, more focused modules?**
+  _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
