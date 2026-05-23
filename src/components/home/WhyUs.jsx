@@ -64,28 +64,34 @@ export default function WhyUs() {
   const panelsRef = useRef([]);
   useLayoutEffect(() => {
   const ctx = gsap.context(() => {
-    panelsRef.current.forEach((panel, index) => {
-      ScrollTrigger.create({
-        trigger: panel,
-        start: "center center",
-        end:
-          index === panelsRef.current.length - 1
-            ? "top center"
-            : "+=100%",
-        pin: true,
-        pinSpacing: false,
-        anticipatePin: 1.2,
+    const mm = gsap.matchMedia();
 
-        onLeave: () => {
-          if (index !== panelsRef.current.length - 1) {
-            gsap.set(panel, { opacity: 0 });
-          }
-        },
+    mm.add("(min-width: 1024px)", () => {
+      panelsRef.current.forEach((panel, index) => {
+        ScrollTrigger.create({
+          trigger: panel,
+          start: "center center",
+          end:
+            index === panelsRef.current.length - 1
+              ? "top center"
+              : "+=100%",
+          pin: true,
+          pinSpacing: false,
+          anticipatePin: 1.2,
 
-        onEnterBack: () => {
-          gsap.set(panel, { opacity: 1 });
-        },
+          onLeave: () => {
+            if (index !== panelsRef.current.length - 1) {
+              gsap.set(panel, { opacity: 0 });
+            }
+          },
+
+          onEnterBack: () => {
+            gsap.set(panel, { opacity: 1 });
+          },
+        });
       });
+
+      return () => mm.revert();
     });
   });
 
