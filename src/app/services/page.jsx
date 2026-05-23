@@ -1,4 +1,3 @@
-"use client";
 import Plasma from "@/components/Plasma";
 import FadeInSection from "@/components/animation/FadeEffect";
 import MarqueHighlightText from "@/components/MarqueHighlightText";
@@ -18,7 +17,7 @@ export default function Services() {
       <section className="min-h-screen relative flex items-center overflow-hidden">
         <Plasma color="#02d5e8" speed={1} direction="forward" scale={1} opacity={1} mouseInteractive={false} />
         {/* Teal ambient glow */}
-        <span className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[900px] h-[500px] bg-teal/5 blur-[120px] rounded-full pointer-events-none -z-0" />
+        <span className="hidden md:block absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[900px] h-[500px] bg-teal/5 blur-[120px] rounded-full pointer-events-none -z-0" />
 
         <div className="container relative z-10">
           <FadeInSection

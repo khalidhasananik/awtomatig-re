@@ -13,9 +13,9 @@ export default function ServiceCTA() {
             margin="40px 0px -40px 0px"
           >
             <div className="relative bg-dark-1 rounded-3xl px-8 py-16 md:px-16 md:py-20 text-center overflow-hidden">
-              {/* Teal glow blobs */}
-              <span className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[200px] bg-teal/5 blur-[80px] rounded-full pointer-events-none" />
-              <span className="absolute bottom-0 left-1/4 w-[300px] h-[150px] bg-blue-light/5 blur-[60px] rounded-full pointer-events-none" />
+              {/* Teal glow blobs — hidden on mobile, blur filters are expensive */}
+              <span className="hidden md:block absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[200px] bg-teal/5 blur-[80px] rounded-full pointer-events-none" />
+              <span className="hidden md:block absolute bottom-0 left-1/4 w-[300px] h-[150px] bg-blue-light/5 blur-[60px] rounded-full pointer-events-none" />
 
               <h5 className="font-montserrat uppercase text-sm tracking-widest text-teal mb-5">
                 [ Let&apos;s build something great ]

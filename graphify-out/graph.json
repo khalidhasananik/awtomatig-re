@@ -4,166 +4,193 @@
   "graph": {},
   "nodes": [
     {
-      "label": "page.js",
-      "file_type": "code",
-      "source_file": "app/contact/page.js",
-      "source_location": "L1",
-      "id": "app_contact_page_js",
-      "community": 42,
-      "norm_label": "page.js"
-    },
-    {
-      "label": "Contact()",
-      "file_type": "code",
-      "source_file": "app/contact/page.js",
-      "source_location": "L5",
-      "id": "contact_page_contact",
-      "community": 42,
-      "norm_label": "contact()"
-    },
-    {
-      "label": "page.jsx",
-      "file_type": "code",
-      "source_file": "app/process/page.jsx",
-      "source_location": "L1",
-      "id": "app_process_page_jsx",
-      "community": 3,
-      "norm_label": "page.jsx"
-    },
-    {
-      "label": "steps",
-      "file_type": "code",
-      "source_file": "app/process/page.jsx",
-      "source_location": "L10",
-      "id": "process_page_steps",
-      "community": 3,
-      "norm_label": "steps"
-    },
-    {
-      "label": "Process()",
-      "file_type": "code",
-      "source_file": "app/process/page.jsx",
-      "source_location": "L42",
-      "id": "process_page_process",
-      "community": 3,
-      "norm_label": "process()"
-    },
-    {
-      "label": "page.jsx",
-      "file_type": "code",
-      "source_file": "app/services/[slug]/page.jsx",
-      "source_location": "L1",
-      "id": "app_services_slug_page_jsx",
-      "community": 62,
-      "norm_label": "page.jsx"
-    },
-    {
-      "label": "generateStaticParams()",
-      "file_type": "code",
-      "source_file": "app/services/[slug]/page.jsx",
-      "source_location": "L8",
-      "id": "slug_page_generatestaticparams",
-      "community": 62,
-      "norm_label": "generatestaticparams()"
-    },
-    {
-      "label": "generateMetadata()",
-      "file_type": "code",
-      "source_file": "app/services/[slug]/page.jsx",
-      "source_location": "L12",
-      "id": "slug_page_generatemetadata",
-      "community": 62,
-      "norm_label": "generatemetadata()"
-    },
-    {
-      "label": "ServiceSubPage()",
-      "file_type": "code",
-      "source_file": "app/services/[slug]/page.jsx",
-      "source_location": "L22",
-      "id": "slug_page_servicesubpage",
-      "community": 62,
-      "norm_label": "servicesubpage()"
-    },
-    {
-      "label": "page.jsx",
-      "file_type": "code",
-      "source_file": "app/services/page.jsx",
-      "source_location": "L1",
-      "id": "app_services_page_jsx",
-      "community": 51,
-      "norm_label": "page.jsx"
-    },
-    {
-      "label": "Services()",
-      "file_type": "code",
-      "source_file": "app/services/page.jsx",
-      "source_location": "L14",
-      "id": "services_page_services",
-      "community": 51,
-      "norm_label": "services()"
-    },
-    {
       "label": "Plasma.jsx",
       "file_type": "code",
-      "source_file": "components/Plasma.jsx",
+      "source_file": "Plasma.jsx",
       "source_location": "L1",
-      "id": "components_plasma_jsx",
+      "id": "plasma_jsx",
       "community": 73,
       "norm_label": "plasma.jsx"
     },
     {
       "label": "Plasma()",
       "file_type": "code",
-      "source_file": "components/Plasma.jsx",
+      "source_file": "Plasma.jsx",
       "source_location": "L4",
       "id": "components_plasma_plasma",
       "community": 73,
       "norm_label": "plasma()"
     },
     {
+      "label": "FadeEffect.jsx",
+      "file_type": "code",
+      "source_file": "animation/FadeEffect.jsx",
+      "source_location": "L1",
+      "id": "animation_fadeeffect_jsx",
+      "community": 0,
+      "norm_label": "fadeeffect.jsx"
+    },
+    {
+      "label": "FadeInSection()",
+      "file_type": "code",
+      "source_file": "animation/FadeEffect.jsx",
+      "source_location": "L6",
+      "id": "animation_fadeeffect_fadeinsection",
+      "community": 0,
+      "norm_label": "fadeinsection()"
+    },
+    {
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app/contact/page.js",
+      "source_location": "L1",
+      "community": 42,
+      "norm_label": "page.js",
+      "id": "app_contact_page_js"
+    },
+    {
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "app/contact/page.js",
+      "source_location": "L5",
+      "community": 42,
+      "norm_label": "contact()",
+      "id": "contact_page_contact"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "app/process/page.jsx",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "page.jsx",
+      "id": "app_process_page_jsx"
+    },
+    {
+      "label": "steps",
+      "file_type": "code",
+      "source_file": "app/process/page.jsx",
+      "source_location": "L10",
+      "community": 3,
+      "norm_label": "steps",
+      "id": "process_page_steps"
+    },
+    {
+      "label": "Process()",
+      "file_type": "code",
+      "source_file": "app/process/page.jsx",
+      "source_location": "L42",
+      "community": 3,
+      "norm_label": "process()",
+      "id": "process_page_process"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "app/services/[slug]/page.jsx",
+      "source_location": "L1",
+      "community": 62,
+      "norm_label": "page.jsx",
+      "id": "app_services_slug_page_jsx"
+    },
+    {
+      "label": "generateStaticParams()",
+      "file_type": "code",
+      "source_file": "app/services/[slug]/page.jsx",
+      "source_location": "L8",
+      "community": 62,
+      "norm_label": "generatestaticparams()",
+      "id": "slug_page_generatestaticparams"
+    },
+    {
+      "label": "generateMetadata()",
+      "file_type": "code",
+      "source_file": "app/services/[slug]/page.jsx",
+      "source_location": "L12",
+      "community": 62,
+      "norm_label": "generatemetadata()",
+      "id": "slug_page_generatemetadata"
+    },
+    {
+      "label": "ServiceSubPage()",
+      "file_type": "code",
+      "source_file": "app/services/[slug]/page.jsx",
+      "source_location": "L22",
+      "community": 62,
+      "norm_label": "servicesubpage()",
+      "id": "slug_page_servicesubpage"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "app/services/page.jsx",
+      "source_location": "L1",
+      "community": 51,
+      "norm_label": "page.jsx",
+      "id": "app_services_page_jsx"
+    },
+    {
+      "label": "Services()",
+      "file_type": "code",
+      "source_file": "app/services/page.jsx",
+      "source_location": "L14",
+      "community": 51,
+      "norm_label": "services()",
+      "id": "services_page_services"
+    },
+    {
+      "label": "Plasma.jsx",
+      "file_type": "code",
+      "source_file": "components/Plasma.jsx",
+      "source_location": "L1",
+      "community": 73,
+      "norm_label": "plasma.jsx",
+      "id": "components_plasma_jsx"
+    },
+    {
       "label": "AboutHero.jsx",
       "file_type": "code",
       "source_file": "components/about/AboutHero.jsx",
       "source_location": "L1",
-      "id": "components_about_abouthero_jsx",
       "community": 61,
-      "norm_label": "abouthero.jsx"
+      "norm_label": "abouthero.jsx",
+      "id": "components_about_abouthero_jsx"
     },
     {
       "label": "AboutHero()",
       "file_type": "code",
       "source_file": "components/about/AboutHero.jsx",
       "source_location": "L4",
-      "id": "about_abouthero_abouthero",
       "community": 61,
-      "norm_label": "abouthero()"
+      "norm_label": "abouthero()",
+      "id": "about_abouthero_abouthero"
     },
     {
       "label": "WhyUs.jsx",
       "file_type": "code",
       "source_file": "components/home/WhyUs.jsx",
       "source_location": "L1",
-      "id": "components_home_whyus_jsx",
       "community": 21,
-      "norm_label": "whyus.jsx"
+      "norm_label": "whyus.jsx",
+      "id": "components_home_whyus_jsx"
     },
     {
       "label": "homeWhyUsData",
       "file_type": "code",
       "source_file": "components/home/WhyUs.jsx",
       "source_location": "L7",
-      "id": "home_whyus_homewhyusdata",
       "community": 21,
-      "norm_label": "homewhyusdata"
+      "norm_label": "homewhyusdata",
+      "id": "home_whyus_homewhyusdata"
     },
     {
       "label": "WhyUs()",
       "file_type": "code",
       "source_file": "components/home/WhyUs.jsx",
       "source_location": "L63",
-      "id": "home_whyus_whyus",
       "community": 21,
-      "norm_label": "whyus()"
+      "norm_label": "whyus()",
+      "id": "home_whyus_whyus"
     },
     {
       "label": "page.jsx",
@@ -1552,15 +1579,6 @@
       "id": "components_animation_fadeeffect_jsx"
     },
     {
-      "label": "FadeInSection()",
-      "file_type": "code",
-      "source_file": "components/animation/FadeEffect.jsx",
-      "source_location": "L6",
-      "community": 0,
-      "norm_label": "fadeinsection()",
-      "id": "animation_fadeeffect_fadeinsection"
-    },
-    {
       "label": "GridAnimatedBg.jsx",
       "file_type": "code",
       "source_file": "components/animation/GridAnimatedBg.jsx",
@@ -2026,7 +2044,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 74,
       "norm_label": "sitemap",
       "id": "sitemap_sitemap"
     },
@@ -2065,7 +2083,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 74,
       "norm_label": "case studies listing page",
       "id": "casestudies_page"
     },
@@ -2078,7 +2096,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 74,
       "norm_label": "single case study page",
       "id": "casestudies_slug_page"
     },
@@ -2208,7 +2226,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 74,
       "norm_label": "case studies data constants",
       "id": "contants_casestudies"
     },
@@ -4011,6 +4029,46 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "Plasma.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "plasma_jsx",
+      "target": "components_plasma_plasma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Plasma.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_plasma_jsx",
+      "target": "components_plasma_plasma"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "animation/FadeEffect.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "animation_fadeeffect_jsx",
+      "target": "animation_fadeeffect_fadeinsection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/animation/FadeEffect.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_animation_fadeeffect_jsx",
+      "target": "animation_fadeeffect_fadeinsection"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/contact/page.js",
       "source_location": "L5",
       "weight": 1.0,
@@ -4138,16 +4196,6 @@
       "confidence_score": 1.0,
       "source": "src_app_services_page_jsx",
       "target": "services_page_services"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/Plasma.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "components_plasma_jsx",
-      "target": "components_plasma_plasma",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5669,16 +5717,6 @@
       "confidence_score": 1.0,
       "source": "components_services_getintouch_jsx",
       "target": "components_textbox_jsx"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/animation/FadeEffect.jsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_animation_fadeeffect_jsx",
-      "target": "animation_fadeeffect_fadeinsection"
     },
     {
       "relation": "imports_from",
@@ -7803,5 +7841,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b43a7ecbad567744d34b11b94c6eb5ee1b2d44a8"
+  "built_at_commit": "dc68bc76ee7b5db76529ff56f6522e5a556e43aa"
 }

@@ -33,7 +33,7 @@ export default async function ServiceSubPage({ params }) {
         <Plasma color="#02d5e8" speed={1} direction="forward" scale={1} opacity={1} mouseInteractive={false} />
 
         {/* Teal ambient glow */}
-        <span className="absolute top-0 left-1/3 w-full max-w-[700px] h-[500px] bg-teal/6 blur-[130px] rounded-full pointer-events-none" />
+        <span className="hidden md:block absolute top-0 left-1/3 w-full max-w-[700px] h-[500px] bg-teal/6 blur-[130px] rounded-full pointer-events-none" />
 
         {/* Large background number — barely visible anchor */}
         <span
