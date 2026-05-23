@@ -1,4 +1,4 @@
-import BackgroundAnimation from "@/components/BackgroundAnimation";
+import Plasma from "@/components/Plasma";
 import FadeInSection from "@/components/animation/FadeEffect";
 import GetInTouch from "@/components/services/GetInTouch";
 import { servicesData } from "@/contants/services";
@@ -30,9 +30,7 @@ export default async function ServiceSubPage({ params }) {
     <main>
       {/* ── Hero ── */}
       <section className="min-h-screen relative flex items-center overflow-hidden">
-        <div className="absolute top-0 left-0 h-full w-full">
-          <BackgroundAnimation className="min-h-screen" />
-        </div>
+        <Plasma color="#02d5e8" speed={1} direction="forward" scale={1} opacity={1} mouseInteractive={false} />
 
         {/* Teal ambient glow */}
         <span className="absolute top-0 left-1/3 w-full max-w-[700px] h-[500px] bg-teal/6 blur-[130px] rounded-full pointer-events-none" />

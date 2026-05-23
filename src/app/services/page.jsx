@@ -1,5 +1,5 @@
 "use client";
-import BackgroundAnimation from "@/components/BackgroundAnimation";
+import Plasma from "@/components/Plasma";
 import FadeInSection from "@/components/animation/FadeEffect";
 import MarqueHighlightText from "@/components/MarqueHighlightText";
 import ExpertiseTabs from "@/components/services/ExpertiseTabs";
@@ -16,9 +16,7 @@ export default function Services() {
     <main>
       {/* ── Hero ── */}
       <section className="min-h-screen relative flex items-center overflow-hidden">
-        <div className="absolute top-0 left-0 h-full w-full">
-          <BackgroundAnimation className="min-h-screen" />
-        </div>
+        <Plasma color="#02d5e8" speed={1} direction="forward" scale={1} opacity={1} mouseInteractive={false} />
         {/* Teal ambient glow */}
         <span className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[900px] h-[500px] bg-teal/5 blur-[120px] rounded-full pointer-events-none -z-0" />
 

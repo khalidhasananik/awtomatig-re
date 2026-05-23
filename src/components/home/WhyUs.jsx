@@ -91,7 +91,6 @@ export default function WhyUs() {
         });
       });
 
-      return () => mm.revert();
     });
   });
 

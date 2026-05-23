@@ -2,7 +2,7 @@
 import awtomatig_logo from "@/assets/logo/awtomatig-logo.png";
 import AnimatedButton from "@/components/AnimatedButton";
 import FadeInSection from "@/components/animation/FadeEffect";
-import BackgroundAnimation from "@/components/BackgroundAnimation";
+import Plasma from "@/components/Plasma";
 import CommonHeading from "@/components/CommonHeading";
 import GlowBall from "@/components/GlowBall";
 import Image from "next/image";
@@ -43,9 +43,7 @@ export default function Process() {
   return (
     <main>
       <section className="min-h-[823px] relative">
-        <div className="absolute top-0 left-0 h-full w-full">
-          <BackgroundAnimation className="min-h-screen" />
-        </div>
+        <Plasma color="#02d5e8" speed={1} direction="forward" scale={1} opacity={1} mouseInteractive={false} />
         <div className="container relative z-10">
           <FadeInSection
             initial={{ opacity: 0, x: -150 }}

@@ -1,5 +1,5 @@
 "use client";
-import BackgroundAnimation from "@/components/BackgroundAnimation";
+import Plasma from "@/components/Plasma";
 
 export default function AboutHero() {
   return (
@@ -30,10 +30,7 @@ export default function AboutHero() {
         .ah-bob    { animation: ah-bob 2s ease-in-out infinite 2s; }
       `}</style>
 
-      {/* Background animation — kept as-is */}
-      <div className="absolute inset-0">
-        <BackgroundAnimation className="min-h-screen" />
-      </div>
+      <Plasma color="#02d5e8" speed={1} direction="forward" scale={1} opacity={1} mouseInteractive={false} />
 
       {/* Layered overlays for depth */}
       <div
