@@ -70,18 +70,18 @@
     "semantic_hash": "15907b942cfd22732b977f679c911c05"
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\contact\\page.js": {
-    "mtime": 1778832764.0,
-    "ast_hash": "a4b4cc996338cb5588bc8d3c4f743de6",
-    "semantic_hash": "a4b4cc996338cb5588bc8d3c4f743de6"
+    "mtime": 1779563915.9967916,
+    "ast_hash": "09d452485d5928585b5ed525ce233bb2",
+    "semantic_hash": ""
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\process\\page.jsx": {
-    "mtime": 1778832764.0,
-    "ast_hash": "5d806bfe4c7a326114eda54ac1a8319d",
-    "semantic_hash": "5d806bfe4c7a326114eda54ac1a8319d"
+    "mtime": 1779563911.8246028,
+    "ast_hash": "7b2e849d5e9e9681bad12b4bba09fce9",
+    "semantic_hash": ""
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\services\\page.jsx": {
-    "mtime": 1779562446.5575314,
-    "ast_hash": "27c666559103c8548967e0662c10e003",
+    "mtime": 1779563903.5308466,
+    "ast_hash": "4772340dcfe5957d0c0076ac18d4e6d0",
     "semantic_hash": ""
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\Accordion.jsx": {
@@ -245,8 +245,8 @@
     "semantic_hash": "40475de9530f0d9fa222d4135ab6cfa9"
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\home\\WhyUs.jsx": {
-    "mtime": 1779561996.8884728,
-    "ast_hash": "e6627a90617cedf0399a0e8dd29fd211",
+    "mtime": 1779564109.1025336,
+    "ast_hash": "f0c7d890a59bdf8ad9aabb38dd4251ac",
     "semantic_hash": ""
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\services\\Benifits.jsx": {
@@ -715,8 +715,8 @@
     "semantic_hash": "a9f0461359ffd496a600eb1c9c86387a"
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\about\\AboutHero.jsx": {
-    "mtime": 1779445459.0552444,
-    "ast_hash": "61c22a2d4c939720960377b6f303ce4a",
+    "mtime": 1779563899.261077,
+    "ast_hash": "ad577f82200698c863a4ab72642c4886",
     "semantic_hash": ""
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\about\\OurStory.jsx": {
@@ -725,8 +725,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\app\\services\\[slug]\\page.jsx": {
-    "mtime": 1779560201.8354163,
-    "ast_hash": "564a968f7aa323aeab52de794cdbc47b",
+    "mtime": 1779563907.6959946,
+    "ast_hash": "13e60a63e452bddab075d9da9c00f7b7",
     "semantic_hash": ""
   },
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\services\\ExpertiseTabs.jsx": {
@@ -787,6 +787,11 @@
   "C:\\Users\\anik\\Downloads\\awtomatig-main\\public\\videos\\man-working.mp4": {
     "mtime": 1779561000.7397728,
     "ast_hash": "b8ca7d9e12c442cfa9bf0e9ede6c4b29",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\anik\\Downloads\\awtomatig-main\\src\\components\\Plasma.jsx": {
+    "mtime": 1779564347.1125839,
+    "ast_hash": "f8a944c2e6ad9492196ea04fcaf9dd29",
     "semantic_hash": ""
   }
 }

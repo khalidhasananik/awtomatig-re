@@ -4,22 +4,175 @@
   "graph": {},
   "nodes": [
     {
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app/contact/page.js",
+      "source_location": "L1",
+      "id": "app_contact_page_js",
+      "community": 42,
+      "norm_label": "page.js"
+    },
+    {
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "app/contact/page.js",
+      "source_location": "L5",
+      "id": "contact_page_contact",
+      "community": 42,
+      "norm_label": "contact()"
+    },
+    {
       "label": "page.jsx",
       "file_type": "code",
-      "source_file": "page.jsx",
+      "source_file": "app/process/page.jsx",
       "source_location": "L1",
-      "id": "page_jsx",
+      "id": "app_process_page_jsx",
+      "community": 3,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "steps",
+      "file_type": "code",
+      "source_file": "app/process/page.jsx",
+      "source_location": "L10",
+      "id": "process_page_steps",
+      "community": 3,
+      "norm_label": "steps"
+    },
+    {
+      "label": "Process()",
+      "file_type": "code",
+      "source_file": "app/process/page.jsx",
+      "source_location": "L42",
+      "id": "process_page_process",
+      "community": 3,
+      "norm_label": "process()"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "app/services/[slug]/page.jsx",
+      "source_location": "L1",
+      "id": "app_services_slug_page_jsx",
+      "community": 62,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "generateStaticParams()",
+      "file_type": "code",
+      "source_file": "app/services/[slug]/page.jsx",
+      "source_location": "L8",
+      "id": "slug_page_generatestaticparams",
+      "community": 62,
+      "norm_label": "generatestaticparams()"
+    },
+    {
+      "label": "generateMetadata()",
+      "file_type": "code",
+      "source_file": "app/services/[slug]/page.jsx",
+      "source_location": "L12",
+      "id": "slug_page_generatemetadata",
+      "community": 62,
+      "norm_label": "generatemetadata()"
+    },
+    {
+      "label": "ServiceSubPage()",
+      "file_type": "code",
+      "source_file": "app/services/[slug]/page.jsx",
+      "source_location": "L22",
+      "id": "slug_page_servicesubpage",
+      "community": 62,
+      "norm_label": "servicesubpage()"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "app/services/page.jsx",
+      "source_location": "L1",
+      "id": "app_services_page_jsx",
       "community": 51,
       "norm_label": "page.jsx"
     },
     {
       "label": "Services()",
       "file_type": "code",
-      "source_file": "page.jsx",
+      "source_file": "app/services/page.jsx",
       "source_location": "L14",
       "id": "services_page_services",
       "community": 51,
       "norm_label": "services()"
+    },
+    {
+      "label": "Plasma.jsx",
+      "file_type": "code",
+      "source_file": "components/Plasma.jsx",
+      "source_location": "L1",
+      "id": "components_plasma_jsx",
+      "community": 73,
+      "norm_label": "plasma.jsx"
+    },
+    {
+      "label": "Plasma()",
+      "file_type": "code",
+      "source_file": "components/Plasma.jsx",
+      "source_location": "L4",
+      "id": "components_plasma_plasma",
+      "community": 73,
+      "norm_label": "plasma()"
+    },
+    {
+      "label": "AboutHero.jsx",
+      "file_type": "code",
+      "source_file": "components/about/AboutHero.jsx",
+      "source_location": "L1",
+      "id": "components_about_abouthero_jsx",
+      "community": 61,
+      "norm_label": "abouthero.jsx"
+    },
+    {
+      "label": "AboutHero()",
+      "file_type": "code",
+      "source_file": "components/about/AboutHero.jsx",
+      "source_location": "L4",
+      "id": "about_abouthero_abouthero",
+      "community": 61,
+      "norm_label": "abouthero()"
+    },
+    {
+      "label": "WhyUs.jsx",
+      "file_type": "code",
+      "source_file": "components/home/WhyUs.jsx",
+      "source_location": "L1",
+      "id": "components_home_whyus_jsx",
+      "community": 21,
+      "norm_label": "whyus.jsx"
+    },
+    {
+      "label": "homeWhyUsData",
+      "file_type": "code",
+      "source_file": "components/home/WhyUs.jsx",
+      "source_location": "L7",
+      "id": "home_whyus_homewhyusdata",
+      "community": 21,
+      "norm_label": "homewhyusdata"
+    },
+    {
+      "label": "WhyUs()",
+      "file_type": "code",
+      "source_file": "components/home/WhyUs.jsx",
+      "source_location": "L63",
+      "id": "home_whyus_whyus",
+      "community": 21,
+      "norm_label": "whyus()"
+    },
+    {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "page.jsx",
+      "source_location": "L1",
+      "community": 51,
+      "norm_label": "page.jsx",
+      "id": "page_jsx"
     },
     {
       "label": "WhyUs.jsx",
@@ -29,24 +182,6 @@
       "community": 21,
       "norm_label": "whyus.jsx",
       "id": "whyus_jsx"
-    },
-    {
-      "label": "homeWhyUsData",
-      "file_type": "code",
-      "source_file": "WhyUs.jsx",
-      "source_location": "L7",
-      "community": 21,
-      "norm_label": "homewhyusdata",
-      "id": "home_whyus_homewhyusdata"
-    },
-    {
-      "label": "WhyUs()",
-      "file_type": "code",
-      "source_file": "WhyUs.jsx",
-      "source_location": "L63",
-      "community": 21,
-      "norm_label": "whyus()",
-      "id": "home_whyus_whyus"
     },
     {
       "label": "settings.json",
@@ -101,33 +236,6 @@
       "community": 62,
       "norm_label": "page.jsx",
       "id": "src_app_services_slug_page_jsx"
-    },
-    {
-      "label": "generateStaticParams()",
-      "file_type": "code",
-      "source_file": "src/app/services/[slug]/page.jsx",
-      "source_location": "L8",
-      "community": 62,
-      "norm_label": "generatestaticparams()",
-      "id": "slug_page_generatestaticparams"
-    },
-    {
-      "label": "generateMetadata()",
-      "file_type": "code",
-      "source_file": "src/app/services/[slug]/page.jsx",
-      "source_location": "L12",
-      "community": 62,
-      "norm_label": "generatemetadata()",
-      "id": "slug_page_generatemetadata"
-    },
-    {
-      "label": "ServiceSubPage()",
-      "file_type": "code",
-      "source_file": "src/app/services/[slug]/page.jsx",
-      "source_location": "L22",
-      "community": 62,
-      "norm_label": "servicesubpage()",
-      "id": "slug_page_servicesubpage"
     },
     {
       "label": "page.jsx",
@@ -395,7 +503,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L11",
-      "community": 68,
+      "community": 19,
       "norm_label": "dependencies",
       "id": "awtomatig_main_package_dependencies"
     },
@@ -404,7 +512,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L12",
-      "community": 68,
+      "community": 19,
       "norm_label": "@next/third-parties",
       "id": "awtomatig_main_package_dependencies_next_third_parties"
     },
@@ -413,7 +521,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L13",
-      "community": 68,
+      "community": 19,
       "norm_label": "gsap",
       "id": "awtomatig_main_package_dependencies_gsap"
     },
@@ -422,7 +530,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L14",
-      "community": 68,
+      "community": 19,
       "norm_label": "motion",
       "id": "awtomatig_main_package_dependencies_motion"
     },
@@ -431,7 +539,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L15",
-      "community": 68,
+      "community": 19,
       "norm_label": "next",
       "id": "awtomatig_main_package_dependencies_next"
     },
@@ -440,7 +548,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L16",
-      "community": 68,
+      "community": 19,
       "norm_label": "nodemailer",
       "id": "awtomatig_main_package_dependencies_nodemailer"
     },
@@ -449,7 +557,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L17",
-      "community": 68,
+      "community": 19,
       "norm_label": "ogl",
       "id": "awtomatig_main_package_dependencies_ogl"
     },
@@ -458,7 +566,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L18",
-      "community": 68,
+      "community": 19,
       "norm_label": "postprocessing",
       "id": "awtomatig_main_package_dependencies_postprocessing"
     },
@@ -467,7 +575,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L19",
-      "community": 68,
+      "community": 19,
       "norm_label": "react",
       "id": "awtomatig_main_package_dependencies_react"
     },
@@ -476,7 +584,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L20",
-      "community": 68,
+      "community": 19,
       "norm_label": "react-dom",
       "id": "awtomatig_main_package_dependencies_react_dom"
     },
@@ -485,7 +593,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L21",
-      "community": 68,
+      "community": 19,
       "norm_label": "react-fast-marquee",
       "id": "awtomatig_main_package_dependencies_react_fast_marquee"
     },
@@ -494,7 +602,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L22",
-      "community": 68,
+      "community": 19,
       "norm_label": "react-tsparticles",
       "id": "awtomatig_main_package_dependencies_react_tsparticles"
     },
@@ -503,7 +611,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L23",
-      "community": 68,
+      "community": 19,
       "norm_label": "swiper",
       "id": "awtomatig_main_package_dependencies_swiper"
     },
@@ -512,7 +620,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L24",
-      "community": 68,
+      "community": 19,
       "norm_label": "three",
       "id": "awtomatig_main_package_dependencies_three"
     },
@@ -521,7 +629,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L25",
-      "community": 68,
+      "community": 19,
       "norm_label": "tsparticles-slim",
       "id": "awtomatig_main_package_dependencies_tsparticles_slim"
     },
@@ -895,24 +1003,6 @@
       "id": "contants_services_servicesdata"
     },
     {
-      "label": "page.jsx",
-      "file_type": "code",
-      "source_file": "app/services/[slug]/page.jsx",
-      "source_location": "L1",
-      "community": 62,
-      "norm_label": "page.jsx",
-      "id": "app_services_slug_page_jsx"
-    },
-    {
-      "label": "page.jsx",
-      "file_type": "code",
-      "source_file": "app/services/page.jsx",
-      "source_location": "L1",
-      "community": 51,
-      "norm_label": "page.jsx",
-      "id": "app_services_page_jsx"
-    },
-    {
       "label": "ServiceCTA.jsx",
       "file_type": "code",
       "source_file": "components/services/ServiceCTA.jsx",
@@ -1030,24 +1120,6 @@
       "id": "about_us_page_aboutus"
     },
     {
-      "label": "AboutHero.jsx",
-      "file_type": "code",
-      "source_file": "components/about/AboutHero.jsx",
-      "source_location": "L1",
-      "community": 61,
-      "norm_label": "abouthero.jsx",
-      "id": "components_about_abouthero_jsx"
-    },
-    {
-      "label": "AboutHero()",
-      "file_type": "code",
-      "source_file": "components/about/AboutHero.jsx",
-      "source_location": "L4",
-      "community": 61,
-      "norm_label": "abouthero()",
-      "id": "about_abouthero_abouthero"
-    },
-    {
       "label": "OurStory.jsx",
       "file_type": "code",
       "source_file": "components/about/OurStory.jsx",
@@ -1055,15 +1127,6 @@
       "community": 10,
       "norm_label": "ourstory.jsx",
       "id": "components_about_ourstory_jsx"
-    },
-    {
-      "label": "WhyUs.jsx",
-      "file_type": "code",
-      "source_file": "components/home/WhyUs.jsx",
-      "source_location": "L1",
-      "community": 21,
-      "norm_label": "whyus.jsx",
-      "id": "components_home_whyus_jsx"
     },
     {
       "label": "capabilities.js",
@@ -1199,51 +1262,6 @@
       "community": 29,
       "norm_label": "singlecasestudies()",
       "id": "slug_page_singlecasestudies"
-    },
-    {
-      "label": "page.js",
-      "file_type": "code",
-      "source_file": "app/contact/page.js",
-      "source_location": "L1",
-      "community": 42,
-      "norm_label": "page.js",
-      "id": "app_contact_page_js"
-    },
-    {
-      "label": "Contact()",
-      "file_type": "code",
-      "source_file": "app/contact/page.js",
-      "source_location": "L5",
-      "community": 42,
-      "norm_label": "contact()",
-      "id": "contact_page_contact"
-    },
-    {
-      "label": "page.jsx",
-      "file_type": "code",
-      "source_file": "app/process/page.jsx",
-      "source_location": "L1",
-      "community": 3,
-      "norm_label": "page.jsx",
-      "id": "app_process_page_jsx"
-    },
-    {
-      "label": "steps",
-      "file_type": "code",
-      "source_file": "app/process/page.jsx",
-      "source_location": "L10",
-      "community": 3,
-      "norm_label": "steps",
-      "id": "process_page_steps"
-    },
-    {
-      "label": "Process()",
-      "file_type": "code",
-      "source_file": "app/process/page.jsx",
-      "source_location": "L42",
-      "community": 3,
-      "norm_label": "process()",
-      "id": "process_page_process"
     },
     {
       "label": "Accordion.jsx",
@@ -1956,7 +1974,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "root layout",
       "id": "layout_rootlayout"
     },
@@ -1982,7 +2000,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "home page",
       "id": "page_home"
     },
@@ -2216,7 +2234,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "header component",
       "id": "components_header"
     },
@@ -2229,7 +2247,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "footer component",
       "id": "components_footer"
     },
@@ -2242,7 +2260,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "gtmprovider component",
       "id": "components_gtmprovider"
     },
@@ -2255,7 +2273,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "cookiepopup component",
       "id": "components_cookiepopup"
     },
@@ -2268,7 +2286,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "gridanimatedbg component",
       "id": "components_gridanimatedbg"
     },
@@ -2281,7 +2299,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "hero component",
       "id": "components_hero"
     },
@@ -2294,7 +2312,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "whyus component",
       "id": "components_whyus"
     },
@@ -2320,7 +2338,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "services home section",
       "id": "components_services_home"
     },
@@ -2333,7 +2351,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "ourproccess component",
       "id": "components_ourproccess"
     },
@@ -2346,7 +2364,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "impact component",
       "id": "components_impact"
     },
@@ -2359,7 +2377,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "keepflyingmarquee component",
       "id": "components_keepflyingmarquee"
     },
@@ -2372,7 +2390,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "futurechanges component",
       "id": "components_futurechanges"
     },
@@ -2385,7 +2403,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "ourcapabilities component",
       "id": "components_ourcapabilities"
     },
@@ -2398,7 +2416,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "testimonials component",
       "id": "components_testimonials"
     },
@@ -2411,7 +2429,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 73,
+      "community": 4,
       "norm_label": "blogtimeline component",
       "id": "components_blogtimeline"
     },
@@ -3993,22 +4011,103 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "page.jsx",
-      "source_location": "L14",
+      "source_file": "app/contact/page.js",
+      "source_location": "L5",
       "weight": 1.0,
-      "source": "page_jsx",
-      "target": "services_page_services",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "app_contact_page_js",
+      "target": "contact_page_contact"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/process/page.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_process_page_jsx",
+      "target": "awtomatig_logo_png"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/app/services/page.jsx",
-      "source_location": "L15",
+      "source_file": "app/process/page.jsx",
+      "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "src_app_services_page_jsx",
-      "target": "services_page_services"
+      "source": "app_process_page_jsx",
+      "target": "process_page_steps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/process/page.jsx",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_process_page_jsx",
+      "target": "process_page_process"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/[slug]/page.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_slug_page_jsx",
+      "target": "slug_page_generatestaticparams"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/[slug]/page.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_slug_page_jsx",
+      "target": "slug_page_generatemetadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/[slug]/page.jsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_slug_page_jsx",
+      "target": "slug_page_servicesubpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/[slug]/page.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_services_slug_page_jsx",
+      "target": "slug_page_generatestaticparams"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/[slug]/page.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_services_slug_page_jsx",
+      "target": "slug_page_generatemetadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/[slug]/page.jsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_services_slug_page_jsx",
+      "target": "slug_page_servicesubpage"
     },
     {
       "relation": "contains",
@@ -4023,41 +4122,81 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "WhyUs.jsx",
+      "source_file": "page.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "page_jsx",
+      "target": "services_page_services"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/page.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_services_page_jsx",
+      "target": "services_page_services"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Plasma.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_plasma_jsx",
+      "target": "components_plasma_plasma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/about/AboutHero.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_about_abouthero_jsx",
+      "target": "about_abouthero_abouthero"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/home/WhyUs.jsx",
       "source_location": "L7",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "whyus_jsx",
+      "source": "components_home_whyus_jsx",
       "target": "home_whyus_homewhyusdata"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "WhyUs.jsx",
+      "source_file": "components/home/WhyUs.jsx",
       "source_location": "L63",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "whyus_jsx",
+      "source": "components_home_whyus_jsx",
       "target": "home_whyus_whyus"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "components/home/WhyUs.jsx",
+      "source_file": "WhyUs.jsx",
       "source_location": "L7",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "components_home_whyus_jsx",
+      "source": "whyus_jsx",
       "target": "home_whyus_homewhyusdata"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "components/home/WhyUs.jsx",
+      "source_file": "WhyUs.jsx",
       "source_location": "L63",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "components_home_whyus_jsx",
+      "source": "whyus_jsx",
       "target": "home_whyus_whyus"
     },
     {
@@ -4099,66 +4238,6 @@
       "confidence_score": 1.0,
       "source": "claude_settings_hooks",
       "target": "claude_settings_hooks_pretooluse"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/services/[slug]/page.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_services_slug_page_jsx",
-      "target": "slug_page_generatestaticparams"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/services/[slug]/page.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_services_slug_page_jsx",
-      "target": "slug_page_generatemetadata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/services/[slug]/page.jsx",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_services_slug_page_jsx",
-      "target": "slug_page_servicesubpage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/[slug]/page.jsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_services_slug_page_jsx",
-      "target": "slug_page_generatestaticparams"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/[slug]/page.jsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_services_slug_page_jsx",
-      "target": "slug_page_generatemetadata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/[slug]/page.jsx",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_services_slug_page_jsx",
-      "target": "slug_page_servicesubpage"
     },
     {
       "relation": "contains",
@@ -5088,16 +5167,6 @@
       "target": "man_working_gif"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/about/AboutHero.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_about_abouthero_jsx",
-      "target": "about_abouthero_abouthero"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5177,47 +5246,6 @@
       "confidence_score": 1.0,
       "source": "app_case_studies_slug_page_jsx",
       "target": "slug_page_singlecasestudies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/contact/page.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_contact_page_js",
-      "target": "contact_page_contact"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/process/page.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_process_page_jsx",
-      "target": "awtomatig_logo_png"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/process/page.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_process_page_jsx",
-      "target": "process_page_steps"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/process/page.jsx",
-      "source_location": "L42",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_process_page_jsx",
-      "target": "process_page_process"
     },
     {
       "relation": "contains",
@@ -7775,5 +7803,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "3fd3b77bae9df1b1a4fabf3b6a993693183e53e9"
+  "built_at_commit": "b43a7ecbad567744d34b11b94c6eb5ee1b2d44a8"
 }

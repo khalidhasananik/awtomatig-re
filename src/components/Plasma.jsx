@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function Plasma({
   color = "#02d5e8",
@@ -11,6 +11,14 @@ export default function Plasma({
 }) {
   const wrapperRef = useRef(null);
   const blobRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
 
   useEffect(() => {
     if (!mouseInteractive || !wrapperRef.current || !blobRef.current) return;
@@ -26,6 +34,25 @@ export default function Plasma({
     window.addEventListener("mousemove", onMove);
     return () => window.removeEventListener("mousemove", onMove);
   }, [mouseInteractive]);
+
+  // On mobile, replace the animated blobs with a lightweight static gradient.
+  // filter:blur() on large elements has no GPU fast path on mobile and blocks
+  // the main thread on every frame.
+  if (isMobile) {
+    return (
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          zIndex: 0,
+          pointerEvents: "none",
+          opacity,
+          background: `radial-gradient(ellipse 80% 60% at 30% 20%, ${color}22 0%, transparent 70%),
+                       radial-gradient(ellipse 60% 50% at 70% 60%, ${color}14 0%, transparent 70%)`,
+        }}
+      />
+    );
+  }
 
   const d1 = (18 / speed).toFixed(2);
   const d2 = (24 / speed).toFixed(2);

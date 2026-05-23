@@ -14,7 +14,7 @@ export default function FadeInSection({
 }) {
   const ref = useRef(null);
   const isInView = useInView(ref, {
-    once: false,
+    once: true,
     margin: margin,
   });
 
