@@ -29,13 +29,13 @@ export default async function ServiceSubPage({ params }) {
   return (
     <main>
       {/* ── Hero ── */}
-      <section className="min-h-screen relative flex items-center">
+      <section className="min-h-screen relative flex items-center overflow-hidden">
         <div className="absolute top-0 left-0 h-full w-full">
           <BackgroundAnimation className="min-h-screen" />
         </div>
 
         {/* Teal ambient glow */}
-        <span className="absolute top-0 left-1/3 w-[700px] h-[500px] bg-teal/6 blur-[130px] rounded-full pointer-events-none" />
+        <span className="absolute top-0 left-1/3 w-full max-w-[700px] h-[500px] bg-teal/6 blur-[130px] rounded-full pointer-events-none" />
 
         {/* Large background number — barely visible anchor */}
         <span
@@ -167,9 +167,9 @@ export default async function ServiceSubPage({ params }) {
         <div className="container">
           <div className="wrapper">
             <FadeInSection
-              initial={{ opacity: 0, x: 60 }}
-              scrollTop={{ opacity: 1, x: 0 }}
-              scrollBottom={{ opacity: 0, x: 60 }}
+              initial={{ opacity: 0, y: 40 }}
+              scrollTop={{ opacity: 1, y: 0 }}
+              scrollBottom={{ opacity: 0, y: 40 }}
               margin="40px 0px -40px 0px"
             >
               <div className="mb-14">

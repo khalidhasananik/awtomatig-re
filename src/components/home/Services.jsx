@@ -28,9 +28,9 @@ export default function Services() {
   return (
     <div className="container">
       <FadeInSection
-        initial={{ opacity: 0, x: 100 }}
-        scrollTop={{ opacity: 1, x: 0 }}
-        scrollBottom={{ opacity: 0, x: 100 }}
+        initial={{ opacity: 0, y: 40 }}
+        scrollTop={{ opacity: 1, y: 0 }}
+        scrollBottom={{ opacity: 0, y: 40 }}
         margin="40px 0px -40px 0px"
       >
         <div className="wrapper mt-20 mb-14 text-center sm:text-left relative z-10">

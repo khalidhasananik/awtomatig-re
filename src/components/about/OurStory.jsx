@@ -1,6 +1,4 @@
 "use client";
-import group_meeting from "@/assets/about/man-working.gif";
-import Image from "next/image";
 
 const stats = [
   { num: "4+", label: "Years", sub: "Operational since 2022" },
@@ -194,14 +192,15 @@ export default function OurStory() {
                 />
               ))}
 
-              <Image
-                src={group_meeting}
-                alt="team at work"
-                height={556}
-                width={460}
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="w-full h-auto object-cover"
-                unoptimized
-              />
+              >
+                <source src="/videos/man-working.mp4" type="video/mp4" />
+              </video>
 
               {/* Scanlines */}
               <div

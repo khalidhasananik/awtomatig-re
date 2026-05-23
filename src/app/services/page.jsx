@@ -23,18 +23,18 @@ export default function Services() {
   return (
     <main ref={servicesRef}>
       {/* ── Hero ── */}
-      <section className="min-h-screen relative flex items-center">
+      <section className="min-h-screen relative flex items-center overflow-hidden">
         <div className="absolute top-0 left-0 h-full w-full">
           <BackgroundAnimation className="min-h-screen" />
         </div>
         {/* Teal ambient glow */}
-        <span className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[500px] bg-teal/5 blur-[120px] rounded-full pointer-events-none -z-0" />
+        <span className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[900px] h-[500px] bg-teal/5 blur-[120px] rounded-full pointer-events-none -z-0" />
 
         <div className="container relative z-10">
           <FadeInSection
-            initial={{ opacity: 0, x: -120 }}
-            scrollTop={{ opacity: 1, x: 0 }}
-            scrollBottom={{ opacity: 0, x: -120 }}
+            initial={{ opacity: 0, y: 40 }}
+            scrollTop={{ opacity: 1, y: 0 }}
+            scrollBottom={{ opacity: 0, y: 40 }}
             margin="40px 0px -40px 0px"
           >
             <div className="wrapper flex flex-col items-center text-center gap-5 pt-32 pb-24">
