@@ -10,18 +10,10 @@ import StatsBar from "@/components/services/StatsBar";
 import WhoBenefits from "@/components/services/WhoBenefits";
 import WhyChooseUs from "@/components/services/WhyChooseUs";
 import Link from "next/link";
-import { useEffect, useRef } from "react";
 
 export default function Services() {
-  const servicesRef = useRef(null);
-
-  useEffect(() => {
-    const el = servicesRef.current;
-    el?.scrollIntoView({ behavior: "smooth" });
-  }, []);
-
   return (
-    <main ref={servicesRef}>
+    <main>
       {/* ── Hero ── */}
       <section className="min-h-screen relative flex items-center overflow-hidden">
         <div className="absolute top-0 left-0 h-full w-full">

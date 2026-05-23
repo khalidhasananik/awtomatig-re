@@ -231,6 +231,18 @@
   }
 }
 
+/* Disable heavy GPU animations on mobile */
+@media (max-width: 1023px) {
+  .background-container {
+    animation: none;
+    background: linear-gradient(132deg, #fc415a 0%, #44b6e9 50%, #212335 100%);
+    background-size: 100% 100%;
+  }
+  .background-container .cube {
+    display: none;
+  }
+}
+
 /* button animation */
 /* button.css */
 .magic-btn {
