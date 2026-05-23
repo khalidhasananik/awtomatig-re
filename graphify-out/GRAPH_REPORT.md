@@ -1,16 +1,16 @@
 # Graph Report - awtomatig-main  (2026-05-24)
 
 ## Corpus Check
-- 76 files · ~2,500,168 words
+- 76 files · ~2,500,182 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 371 nodes · 371 edges · 75 communities (46 shown, 29 thin omitted)
+- 372 nodes · 373 edges · 74 communities (45 shown, 29 thin omitted)
 - Extraction: 86% EXTRACTED · 14% INFERRED · 0% AMBIGUOUS · INFERRED: 52 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `80cb2f5b`
+- Built from commit: `f9fd4283`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -69,7 +69,6 @@
 - [[_COMMUNITY_Community 70|Community 70]]
 - [[_COMMUNITY_Community 72|Community 72]]
 - [[_COMMUNITY_Community 73|Community 73]]
-- [[_COMMUNITY_Community 74|Community 74]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Home Page` - 14 edges
@@ -95,7 +94,7 @@
 - `BorderAnimateButton Component` --semantically_similar_to--> `AnimatedButton Component`  [INFERRED] [semantically similar]
   src/components/BorderAnimateButton.jsx → src/components/AnimatedButton.jsx
 
-## Communities (75 total, 29 thin omitted)
+## Communities (74 total, 29 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.05
@@ -186,8 +185,8 @@ Cohesion: 0.60
 Nodes (3): generateMetadata(), generateStaticParams(), ServiceSubPage()
 
 ### Community 68 - "Community 68"
-Cohesion: 0.12
-Nodes (15): devDependencies, eslint, eslint-config-next, @eslint/eslintrc, @iconify/react, tailwindcss, @tailwindcss/postcss, name (+7 more)
+Cohesion: 0.06
+Nodes (30): dependencies, gsap, motion, next, @next/third-parties, nodemailer, ogl, postprocessing (+22 more)
 
 ### Community 72 - "Community 72"
 Cohesion: 0.50
@@ -197,12 +196,8 @@ Nodes (3): permissions, additionalDirectories, allow
 Cohesion: 0.12
 Nodes (17): BlogTimeline Component, CookiePopup Component, Footer Component, FutureChanges Component, GridAnimatedBg Component, GTMProvider Component, Header Component, Hero Component (+9 more)
 
-### Community 74 - "Community 74"
-Cohesion: 0.13
-Nodes (15): dependencies, gsap, motion, next, @next/third-parties, nodemailer, ogl, postprocessing (+7 more)
-
 ## Knowledge Gaps
-- **118 isolated node(s):** `allow`, `PreToolUse`, `whyData`, `allow`, `additionalDirectories` (+113 more)
+- **117 isolated node(s):** `allow`, `PreToolUse`, `whyData`, `allow`, `additionalDirectories` (+112 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **29 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -216,10 +211,10 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 2 inferred relationships involving `GetInTouch Contact Component` (e.g. with `GTMProvider Component` and `Hero Section Component`) actually correct?**
   _`GetInTouch Contact Component` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `allow`, `PreToolUse`, `whyData` to the rest of the system?**
-  _118 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _117 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.054078014184397165 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.09401709401709402 - nodes in this community are weakly interconnected._
 - **Should `Community 68` be split into smaller, more focused modules?**
-  _Cohesion score 0.125 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
