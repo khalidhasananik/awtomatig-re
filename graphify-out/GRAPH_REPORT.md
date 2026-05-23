@@ -1,16 +1,16 @@
 # Graph Report - awtomatig-main  (2026-05-24)
 
 ## Corpus Check
-- 76 files · ~2,500,182 words
+- 76 files · ~2,500,157 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 372 nodes · 373 edges · 74 communities (45 shown, 29 thin omitted)
+- 373 nodes · 374 edges · 73 communities (44 shown, 29 thin omitted)
 - Extraction: 86% EXTRACTED · 14% INFERRED · 0% AMBIGUOUS · INFERRED: 52 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f9fd4283`
+- Built from commit: `3fd3b77b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -33,7 +33,6 @@
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 18|Community 18]]
-- [[_COMMUNITY_Community 19|Community 19]]
 - [[_COMMUNITY_Community 20|Community 20]]
 - [[_COMMUNITY_Community 21|Community 21]]
 - [[_COMMUNITY_Community 22|Community 22]]
@@ -94,7 +93,7 @@
 - `BorderAnimateButton Component` --semantically_similar_to--> `AnimatedButton Component`  [INFERRED] [semantically similar]
   src/components/BorderAnimateButton.jsx → src/components/AnimatedButton.jsx
 
-## Communities (74 total, 29 thin omitted)
+## Communities (73 total, 29 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.05
@@ -113,8 +112,8 @@ Cohesion: 0.16
 Nodes (10): Awtomatig Brand Identity, Cyan Color Scheme, Geometric Isometric Box Shape, Awtomatig Logo, Vertical Striped Texture Pattern, links, HambargerIcon(), LinkDownArrowIcon() (+2 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.09
-Nodes (27): About Us Page, Accordion Component, AnimatedButton Component, BackgroundAnimation Component, Benifits Component, BorderAnimateButton Component, CommonHeading Component, FadeInSection Animation (+19 more)
+Cohesion: 0.08
+Nodes (31): About Us Page, Case Studies Listing Page, Single Case Study Page, Accordion Component, AnimatedButton Component, BackgroundAnimation Component, Benifits Component, BorderAnimateButton Component (+23 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.20
@@ -168,10 +167,6 @@ Nodes (4): Case Studies Assets, FA Business Case Study, FA Business Laptop Mocku
 Cohesion: 0.50
 Nodes (4): Rainbow Color Gradient Palette (Blue, Purple, Magenta, Pink, Orange), Rainbow Polygonal Background Image, Home Section Visual Asset, Low-Poly Geometric Design Style
 
-### Community 19 - "Community 19"
-Cohesion: 0.67
-Nodes (4): Case Studies Listing Page, Single Case Study Page, Case Studies Data Constants, Sitemap
-
 ### Community 23 - "Community 23"
 Cohesion: 1.00
 Nodes (3): Digital Globe Network Visualization, Global Connectivity Concept, Home Section Hero Asset
@@ -215,6 +210,6 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.054078014184397165 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.09401709401709402 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08172043010752689 - nodes in this community are weakly interconnected._
 - **Should `Community 68` be split into smaller, more focused modules?**
   _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._

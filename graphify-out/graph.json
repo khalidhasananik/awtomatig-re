@@ -4,31 +4,49 @@
   "graph": {},
   "nodes": [
     {
+      "label": "page.jsx",
+      "file_type": "code",
+      "source_file": "page.jsx",
+      "source_location": "L1",
+      "id": "page_jsx",
+      "community": 51,
+      "norm_label": "page.jsx"
+    },
+    {
+      "label": "Services()",
+      "file_type": "code",
+      "source_file": "page.jsx",
+      "source_location": "L14",
+      "id": "services_page_services",
+      "community": 51,
+      "norm_label": "services()"
+    },
+    {
       "label": "WhyUs.jsx",
       "file_type": "code",
       "source_file": "WhyUs.jsx",
       "source_location": "L1",
-      "id": "whyus_jsx",
       "community": 21,
-      "norm_label": "whyus.jsx"
+      "norm_label": "whyus.jsx",
+      "id": "whyus_jsx"
     },
     {
       "label": "homeWhyUsData",
       "file_type": "code",
       "source_file": "WhyUs.jsx",
       "source_location": "L7",
-      "id": "home_whyus_homewhyusdata",
       "community": 21,
-      "norm_label": "homewhyusdata"
+      "norm_label": "homewhyusdata",
+      "id": "home_whyus_homewhyusdata"
     },
     {
       "label": "WhyUs()",
       "file_type": "code",
       "source_file": "WhyUs.jsx",
       "source_location": "L63",
-      "id": "home_whyus_whyus",
       "community": 21,
-      "norm_label": "whyus()"
+      "norm_label": "whyus()",
+      "id": "home_whyus_whyus"
     },
     {
       "label": "settings.json",
@@ -119,15 +137,6 @@
       "community": 51,
       "norm_label": "page.jsx",
       "id": "src_app_services_page_jsx"
-    },
-    {
-      "label": "Services()",
-      "file_type": "code",
-      "source_file": "src/app/services/page.jsx",
-      "source_location": "L15",
-      "community": 51,
-      "norm_label": "services()",
-      "id": "services_page_services"
     },
     {
       "label": "OurStory.jsx",
@@ -1999,7 +2008,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 4,
       "norm_label": "sitemap",
       "id": "sitemap_sitemap"
     },
@@ -2038,7 +2047,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 4,
       "norm_label": "case studies listing page",
       "id": "casestudies_page"
     },
@@ -2051,7 +2060,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 4,
       "norm_label": "single case study page",
       "id": "casestudies_slug_page"
     },
@@ -2181,7 +2190,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 4,
       "norm_label": "case studies data constants",
       "id": "contants_casestudies"
     },
@@ -3984,12 +3993,42 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "page.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "page_jsx",
+      "target": "services_page_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/services/page.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_services_page_jsx",
+      "target": "services_page_services"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/services/page.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_services_page_jsx",
+      "target": "services_page_services"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "WhyUs.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "whyus_jsx",
-      "target": "home_whyus_homewhyusdata",
-      "confidence_score": 1.0
+      "target": "home_whyus_homewhyusdata"
     },
     {
       "relation": "contains",
@@ -3997,9 +4036,9 @@
       "source_file": "WhyUs.jsx",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "whyus_jsx",
-      "target": "home_whyus_whyus",
-      "confidence_score": 1.0
+      "target": "home_whyus_whyus"
     },
     {
       "relation": "contains",
@@ -4120,26 +4159,6 @@
       "confidence_score": 1.0,
       "source": "app_services_slug_page_jsx",
       "target": "slug_page_servicesubpage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/services/page.jsx",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_services_page_jsx",
-      "target": "services_page_services"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/services/page.jsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_services_page_jsx",
-      "target": "services_page_services"
     },
     {
       "relation": "contains",
@@ -7756,5 +7775,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f9fd4283b65b4d889072fa19d6e55b918df84e22"
+  "built_at_commit": "3fd3b77bae9df1b1a4fabf3b6a993693183e53e9"
 }
